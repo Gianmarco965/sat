@@ -198,8 +198,10 @@
     <Content Include="js\jquery.min.js" />
     <Content Include="js\stickUp.min.js" />
     <Content Include="js\templatemo_script.js" />
+    <Content Include="Potencia.aspx" />
     <Content Include="Predio.aspx" />
     <Content Include="Propietario.aspx" />
+    <Content Include="PropietarioVehiculo.aspx" />
     <Content Include="RegistroyPlanificacion.aspx" />
     <Content Include="Representante.aspx" />
     <Content Include="Styles\Site.css" />
@@ -297,6 +299,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Potencia.aspx.designer.vb">
+      <DependentUpon>Potencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Potencia.aspx.vb">
+      <DependentUpon>Potencia.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Predio.aspx.designer.vb">
       <DependentUpon>Predio.aspx</DependentUpon>
     </Compile>
@@ -309,6 +318,13 @@
     </Compile>
     <Compile Include="Propietario.aspx.vb">
       <DependentUpon>Propietario.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PropietarioVehiculo.aspx.designer.vb">
+      <DependentUpon>PropietarioVehiculo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PropietarioVehiculo.aspx.vb">
+      <DependentUpon>PropietarioVehiculo.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="RegistroyPlanificacion.aspx.designer.vb">

@@ -138,7 +138,7 @@ http://www.templatemo.com/tm-395-urbanic
                               </asp:SqlDataSource>
                             </div>
                             &nbsp;       
-                            <asp:Button  ID="btnIngresar" runat="server" Text="ingresar" >
+                            <asp:Button  ID="btnIngre" runat="server" Text="ingresar" >
 
                               </asp:Button >
                             </form>

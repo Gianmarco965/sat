@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class Vehicular
-
+    
     '''<summary>
     '''Control form1.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-
+    
     '''<summary>
     '''Control Label4.
     '''</summary>
@@ -30,16 +30,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label4 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control fecha.
+    '''Control txtfecha.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents fecha As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents txtfecha As Global.System.Web.UI.WebControls.TextBox
+    
     '''<summary>
     '''Control Label8.
     '''</summary>
@@ -48,16 +48,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label8 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control placa_N.
+    '''Control txtplacanueva.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents placa_N As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents txtplacanueva As Global.System.Web.UI.WebControls.TextBox
+    
     '''<summary>
     '''Control Label1.
     '''</summary>
@@ -66,16 +66,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control placa_An.
+    '''Control txtplacaanterior.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents placa_An As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents txtplacaanterior As Global.System.Web.UI.WebControls.TextBox
+    
     '''<summary>
     '''Control Label6.
     '''</summary>
@@ -84,16 +84,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label6 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control partida.
+    '''Control txtpartidareg.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents partida As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents txtpartidareg As Global.System.Web.UI.WebControls.TextBox
+    
     '''<summary>
     '''Control Label2.
     '''</summary>
@@ -102,16 +102,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control titulo.
+    '''Control txttitulo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents titulo As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents txttitulo As Global.System.Web.UI.WebControls.TextBox
+    
     '''<summary>
     '''Control Label9.
     '''</summary>
@@ -120,7 +120,7 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label9 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
     '''Control idEstado.
     '''</summary>
@@ -129,7 +129,7 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents idEstado As Global.System.Web.UI.WebControls.DropDownList
-
+    
     '''<summary>
     '''Control SqlDataSource1.
     '''</summary>
@@ -138,7 +138,7 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
-
+    
     '''<summary>
     '''Control Label11.
     '''</summary>
@@ -147,7 +147,7 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label11 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
     '''Control idmarca.
     '''</summary>
@@ -156,7 +156,7 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents idmarca As Global.System.Web.UI.WebControls.DropDownList
-
+    
     '''<summary>
     '''Control SqlDataSource2.
     '''</summary>
@@ -165,7 +165,7 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents SqlDataSource2 As Global.System.Web.UI.WebControls.SqlDataSource
-
+    
     '''<summary>
     '''Control Label12.
     '''</summary>
@@ -174,7 +174,7 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label12 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
     '''Control idmodelo.
     '''</summary>
@@ -183,7 +183,7 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents idmodelo As Global.System.Web.UI.WebControls.DropDownList
-
+    
     '''<summary>
     '''Control SqlDataSource3.
     '''</summary>
@@ -192,7 +192,7 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents SqlDataSource3 As Global.System.Web.UI.WebControls.SqlDataSource
-
+    
     '''<summary>
     '''Control Label3.
     '''</summary>
@@ -201,16 +201,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control serie.
+    '''Control txtserie.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents serie As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents txtserie As Global.System.Web.UI.WebControls.TextBox
+    
     '''<summary>
     '''Control Label13.
     '''</summary>
@@ -219,16 +219,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label13 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control motor.
+    '''Control txtmotor.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents motor As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents txtmotor As Global.System.Web.UI.WebControls.TextBox
+    
     '''<summary>
     '''Control Label14.
     '''</summary>
@@ -237,16 +237,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label14 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control color.
+    '''Control txtcolor.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents color As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents txtcolor As Global.System.Web.UI.WebControls.TextBox
+    
     '''<summary>
     '''Control Label5.
     '''</summary>
@@ -255,16 +255,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control carroceria.
+    '''Control txtcarroceria.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents carroceria As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents txtcarroceria As Global.System.Web.UI.WebControls.TextBox
+    
     '''<summary>
     '''Control Label7.
     '''</summary>
@@ -273,16 +273,25 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label7 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control combustible.
+    '''Control id_combustible.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents combustible As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents id_combustible As Global.System.Web.UI.WebControls.DropDownList
+    
+    '''<summary>
+    '''Control SqlDataSource4.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents SqlDataSource4 As Global.System.Web.UI.WebControls.SqlDataSource
+    
     '''<summary>
     '''Control ll.
     '''</summary>
@@ -291,16 +300,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents ll As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control año_F.
+    '''Control txtanofab.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents año_F As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents txtanofab As Global.System.Web.UI.WebControls.TextBox
+    
     '''<summary>
     '''Control Label15.
     '''</summary>
@@ -309,16 +318,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label15 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control año_M.
+    '''Control txtanomodelo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents año_M As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents txtanomodelo As Global.System.Web.UI.WebControls.TextBox
+    
     '''<summary>
     '''Control Label10.
     '''</summary>
@@ -327,16 +336,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Label10 As Global.System.Web.UI.WebControls.Label
-
+    
     '''<summary>
-    '''Control año_F0.
+    '''Control txtfechafab.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents año_F0 As Global.System.Web.UI.WebControls.TextBox
-
+    Protected WithEvents txtfechafab As Global.System.Web.UI.WebControls.TextBox
+    
     '''<summary>
     '''Control Button1.
     '''</summary>
@@ -345,16 +354,16 @@ Partial Public Class Vehicular
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
-
+    
     '''<summary>
-    '''Control btnAgregarPredio.
+    '''Control btnAgregarVehiculo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents btnAgregarPredio As Global.System.Web.UI.WebControls.Button
-
+    Protected WithEvents btnAgregarVehiculo As Global.System.Web.UI.WebControls.Button
+    
     '''<summary>
     '''Control lblmensaje.
     '''</summary>

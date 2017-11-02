@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Vehicular.aspx.vb" Inherits="sat.Vehicular" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -211,7 +211,7 @@
                                 Font-Size="13pt" Font-Bold="True" Font-Italic="False" ForeColor="#003399"></asp:Label>
                         </td>
                         <td class="style7">
-                            <asp:TextBox ID="fecha" runat="server" 
+                            <asp:TextBox ID="txtfecha" runat="server" 
                                   placeholder="Fecha..." maxlength="50" Width="170px" TextMode="Date"></asp:TextBox>
                         </td>
                         <td class="style8">
@@ -219,7 +219,7 @@
                                 Font-Bold="True" Font-Italic="False" ForeColor="#003399"></asp:Label>
                         </td>
                         <td class="style9">
-                            <asp:TextBox ID="placa_N" runat="server"  
+                            <asp:TextBox ID="txtplacanueva" runat="server"  
                                 placeholder="Placa Nueva..." maxlength="50" Width="170px" 
                                 Height="21px"></asp:TextBox> 
                         </td>
@@ -229,7 +229,7 @@
                                 Font-Size="13pt" Font-Bold="True" ForeColor="#003399"></asp:Label>
                         </td>
                         <td class="style9">
-                            <asp:TextBox ID="placa_An" runat="server"  
+                            <asp:TextBox ID="txtplacaanterior" runat="server"  
                                 placeholder="Placa Anterior..." maxlength="50" Width="170px" 
                                 Height="21px"></asp:TextBox> 
                         </td>
@@ -241,7 +241,7 @@
                                 ForeColor="#003399"></asp:Label>
                         </td>
                         <td class="style11">
-                            <asp:TextBox ID="partida" runat="server"  
+                            <asp:TextBox ID="txtpartidareg" runat="server"  
                                 placeholder="Partida Registral..." maxlength="50" Width="170px" 
                                 Height="21px"></asp:TextBox> 
                         </td>
@@ -250,7 +250,7 @@
                                 Width="150px" Font-Size="13pt" Font-Bold="True" ForeColor="#003399"></asp:Label>
                         </td>
                         <td class="style13">
-                            <asp:TextBox ID="titulo" runat="server" placeholder="Titulo....." maxlength="50" Width="170px"></asp:TextBox>
+                            <asp:TextBox ID="txttitulo" runat="server" placeholder="Titulo....." maxlength="50" Width="170px"></asp:TextBox>
                         </td>
                         <td class="style12">
                             <asp:Label ID="Label9" runat="server" Text="Categoria/Clase :" 
@@ -304,7 +304,7 @@
                                 Width="150px" Font-Size="13pt" Font-Bold="True" ForeColor="#003399"></asp:Label>
                         </td>
                         <td class="style17">
-                            <asp:TextBox ID="serie" runat="server" placeholder="Serie de Chasis...... " maxlength="50" Width="170px"></asp:TextBox>
+                            <asp:TextBox ID="txtserie" runat="server" placeholder="Serie de Chasis " maxlength="50" Width="170px"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>
@@ -314,7 +314,7 @@
                                 ForeColor="#003399"></asp:Label>
                         </td>
                         <td class="style4">
-                            <asp:TextBox ID="motor" runat="server" placeholder="Motor del Auto....." 
+                            <asp:TextBox ID="txtmotor" runat="server" placeholder="Motor del Auto....." 
                                 maxlength="50" Width="170px"></asp:TextBox>
                         </td>
                         <td class="style2">
@@ -322,7 +322,7 @@
                                 Width="150px" Font-Size="13pt" Font-Bold="True" ForeColor="#003399"></asp:Label>
                         </td>
                         <td>
-                            <asp:TextBox ID="color" runat="server" placeholder="Color del Auto..... " maxlength="50" Width="170px"></asp:TextBox>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:TextBox ID="txtcolor" runat="server" placeholder="Color del Auto..... " maxlength="50" Width="170px"></asp:TextBox>&nbsp;&nbsp;&nbsp;&nbsp;
                           
                             </td>
 
@@ -334,7 +334,7 @@
                         <td>
                             &nbsp;&nbsp;&nbsp;&nbsp;
                           
-                            <asp:TextBox ID="carroceria" runat="server" placeholder="Carroceria...... " 
+                            <asp:TextBox ID="txtcarroceria" runat="server" placeholder="Carroceria...... " 
                                 maxlength="50" Width="170px"></asp:TextBox>
                           
                             </td>
@@ -348,16 +348,25 @@
                                 Width="117px" Height="39px" Font-Size="13pt" Font-Bold="True" 
                                 ForeColor="#003399"></asp:Label>
                         </td>
-                        <td class="style4">
-                            <asp:TextBox ID="combustible" runat="server" placeholder="Combustible....." 
-                                maxlength="50" Width="170px"></asp:TextBox>
+                    
+                         <td class="style17">
+                            <asp:DropDownList ID="id_combustible" runat="server" placeholder="....." maxlength="50" 
+                                Width="170px" DataSourceID="SqlDataSource4" DataTextField="descripcion" 
+                                DataValueField="id_combustible">  </asp:DropDownList>
+                            <asp:SqlDataSource ID="SqlDataSource4" runat="server" 
+                                ConnectionString="<%$ ConnectionStrings:satConnectionString %>" 
+                                SelectCommand="SELECT [id_combustible], [descripcion] FROM [Tipo_combustible]">
+                               
+                            </asp:SqlDataSource>
                         </td>
+
+
                         <td class="style2">
                             <asp:Label ID="ll" runat="server" Text="Año de Fabricación :" 
                                 Width="150px" Font-Size="13pt" Font-Bold="True" ForeColor="#003399"></asp:Label>
                         </td>
                         <td>
-                            <asp:TextBox ID="año_F" runat="server" placeholder="Año de Fabricación..... " maxlength="50" Width="170px" TextMode="Date"></asp:TextBox>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <asp:TextBox ID="txtanofab" runat="server" placeholder="Año de Fabricación..... " maxlength="50" Width="170px" TextMode="Date"></asp:TextBox>&nbsp;&nbsp;&nbsp;&nbsp;
                           
                             </td>
 
@@ -369,7 +378,7 @@
                         <td>
                             &nbsp;&nbsp;&nbsp;&nbsp;
                           
-                            <asp:TextBox ID="año_M" runat="server" placeholder="Año de Modelo...... " 
+                            <asp:TextBox ID="txtanomodelo" runat="server" placeholder="Año de Modelo...... " 
                                 maxlength="50" Width="170px" TextMode="Date"></asp:TextBox>
                           
                             </td>
@@ -383,7 +392,7 @@
                         </td>
                         <td class="style4">
                             
-                            <asp:TextBox ID="año_F0" runat="server" placeholder="Año de Fabricación..... " 
+                            <asp:TextBox ID="txtfechafab" runat="server" placeholder="Año de Fabricación..... " 
                                 maxlength="50" Width="170px" TextMode="Date"></asp:TextBox>
                             
                         </td>
@@ -405,7 +414,7 @@
                             <div class="form-group">
                                 <asp:Button ID="Button1" runat="server" 
                                     Text="Anterior" class="btn btn-orange " BackColor="Blue" Height="46px" 
-                                    Width="115px" />  <asp:Button ID="btnAgregarPredio" runat="server" 
+                                    Width="115px" />  <asp:Button ID="btnAgregarVehiculo" runat="server" 
                                     Text="Registrar" class="btn btn-orange " BackColor="Blue" Height="46px" 
                                     Width="115px" /> </div>
                              <div class="form-group"><center>

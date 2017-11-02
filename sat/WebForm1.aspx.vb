@@ -19,7 +19,16 @@ Public Class WebForm1
 
 
 
-    Protected Sub btnIngresar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnIngresar.Click
+
+
+
+
+
+    Protected Sub TextBox1_TextChanged(ByVal sender As Object, ByVal e As EventArgs)
+
+    End Sub
+
+    Protected Sub btnIngre_Click(sender As Object, e As EventArgs) Handles btnIngre.Click
         Dim a As Integer = 0
 
 
@@ -27,9 +36,9 @@ Public Class WebForm1
             xcon.Open()
             Dim xcmd As New SqlCommand("usu", xcon)
             xcmd.CommandType = CommandType.StoredProcedure
-            xcmd.Parameters.Add("@email", email.Text)
-            xcmd.Parameters.Add("@password", password.Text)
-            xcmd.Parameters.Add("@tipo", idTrabajador.SelectedIndex + 1)
+            xcmd.Parameters.AddWithValue("@email", email.Text)
+            xcmd.Parameters.AddWithValue("@password", password.Text)
+            xcmd.Parameters.AddWithValue("@tipo", idTrabajador.SelectedIndex + 1)
 
             ad = New SqlDataAdapter(xcmd)
             Dim dt As New DataTable
@@ -61,16 +70,5 @@ Public Class WebForm1
 
 
 
-
-
     End Sub
-
-
-
-
-    Protected Sub TextBox1_TextChanged(ByVal sender As Object, ByVal e As EventArgs)
-
-    End Sub
-
-    
 End Class
