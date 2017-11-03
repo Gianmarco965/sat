@@ -5,4 +5,9 @@
 
     End Sub
 
+    Protected Sub btnAgregarPotencia_Click(sender As Object, e As EventArgs) Handles btnAgregarPotencia.Click
+
+        Response.Redirect("index.aspx")
+
+    End Sub
 End Class

@@ -117,15 +117,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.autovaluo._Label15">
-<summary>
-Control Label15.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.autovaluo._predio">
 <summary>
 Control predio.
@@ -144,27 +135,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.autovaluo._Label16">
-<summary>
-Control Label16.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.autovaluo._nivel">
 <summary>
 Control nivel.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.autovaluo._Label1">
-<summary>
-Control Label1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -180,15 +153,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.autovaluo._Label17">
-<summary>
-Control Label17.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.autovaluo._inst_elect">
 <summary>
 Control inst_elect.
@@ -198,27 +162,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.autovaluo._Label2">
-<summary>
-Control Label2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.autovaluo._idTippo_material">
 <summary>
 Control idTippo_material.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.autovaluo._Label3">
-<summary>
-Control Label3.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -252,15 +198,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.autovaluo._MOSTRAR">
-<summary>
-Control MOSTRAR.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.autovaluo._lblMensaje">
 <summary>
 Control lblMensaje.
@@ -273,6 +210,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.autovaluo._btnSiguiente">
 <summary>
 Control btnSiguiente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.autovaluo._MOSTRAR">
+<summary>
+Control MOSTRAR.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -387,27 +333,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Potencia._Label4">
-<summary>
-Control Label4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Potencia._txtlongitud">
 <summary>
 Control txtlongitud.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Potencia._Label8">
-<summary>
-Control Label8.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -423,27 +351,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Potencia._Label1">
-<summary>
-Control Label1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Potencia._txtancho">
 <summary>
 Control txtancho.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Potencia._Label6">
-<summary>
-Control Label6.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -459,27 +369,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Potencia._Label2">
-<summary>
-Control Label2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Potencia._txtpbruto">
 <summary>
 Control txtpbruto.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Potencia._Label9">
-<summary>
-Control Label9.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -738,15 +630,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Propietario._Label15">
-<summary>
-Control Label15.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Propietario._codContri">
 <summary>
 Control codContri.
@@ -765,27 +648,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Propietario._Label16">
-<summary>
-Control Label16.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Propietario._nombew">
 <summary>
 Control nombew.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Propietario._Label1">
-<summary>
-Control Label1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -801,15 +666,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Propietario._Label17">
-<summary>
-Control Label17.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Propietario._ApellidoM">
 <summary>
 Control ApellidoM.
@@ -819,27 +675,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Propietario._Label2">
-<summary>
-Control Label2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Propietario._dni">
 <summary>
 Control dni.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Propietario._Label3">
-<summary>
-Control Label3.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -864,27 +702,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Propietario._Label4">
-<summary>
-Control Label4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Propietario._Direccion">
 <summary>
 Control Direccion.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Propietario._Label5">
-<summary>
-Control Label5.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -900,15 +720,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Propietario._Label6">
-<summary>
-Control Label6.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Propietario._cel">
 <summary>
 Control cel.
@@ -918,27 +729,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Propietario._Label7">
-<summary>
-Control Label7.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Propietario._correo">
 <summary>
 Control correo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Propietario._Label8">
-<summary>
-Control Label8.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -957,15 +750,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.Propietario._SqlDataSource2">
 <summary>
 Control SqlDataSource2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Propietario._Label9">
-<summary>
-Control Label9.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1011,15 +795,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.PropietarioVehiculo._form1">
 <summary>
 Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.PropietarioVehiculo._Label4">
-<summary>
-Control Label4.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1080,15 +855,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Representante._Label15">
-<summary>
-Control Label15.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Representante._predio">
 <summary>
 Control predio.
@@ -1107,27 +873,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Representante._Label16">
-<summary>
-Control Label16.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Representante._txtnombres">
 <summary>
 Control txtnombres.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Representante._Label1">
-<summary>
-Control Label1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1143,27 +891,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Representante._Label17">
-<summary>
-Control Label17.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Representante._txtdni">
 <summary>
 Control txtdni.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Representante._Label3">
-<summary>
-Control Label3.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1269,27 +999,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Vehicular._Label4">
-<summary>
-Control Label4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Vehicular._txtfecha">
 <summary>
 Control txtfecha.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Vehicular._Label8">
-<summary>
-Control Label8.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1305,27 +1017,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Vehicular._Label1">
-<summary>
-Control Label1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Vehicular._txtplacaanterior">
 <summary>
 Control txtplacaanterior.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Vehicular._Label6">
-<summary>
-Control Label6.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1341,27 +1035,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Vehicular._Label2">
-<summary>
-Control Label2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Vehicular._txttitulo">
 <summary>
 Control txttitulo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Vehicular._Label9">
-<summary>
-Control Label9.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1386,15 +1062,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Vehicular._Label11">
-<summary>
-Control Label11.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Vehicular._idmarca">
 <summary>
 Control idmarca.
@@ -1407,15 +1074,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.Vehicular._SqlDataSource2">
 <summary>
 Control SqlDataSource2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Vehicular._Label12">
-<summary>
-Control Label12.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1440,27 +1098,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Vehicular._Label3">
-<summary>
-Control Label3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Vehicular._txtserie">
 <summary>
 Control txtserie.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Vehicular._Label13">
-<summary>
-Control Label13.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1476,15 +1116,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Vehicular._Label14">
-<summary>
-Control Label14.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Vehicular._txtcolor">
 <summary>
 Control txtcolor.
@@ -1494,27 +1125,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Vehicular._Label5">
-<summary>
-Control Label5.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Vehicular._txtcarroceria">
 <summary>
 Control txtcarroceria.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Vehicular._Label7">
-<summary>
-Control Label7.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1539,15 +1152,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Vehicular._ll">
-<summary>
-Control ll.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Vehicular._txtanofab">
 <summary>
 Control txtanofab.
@@ -1557,27 +1161,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Vehicular._Label15">
-<summary>
-Control Label15.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Vehicular._txtanomodelo">
 <summary>
 Control txtanomodelo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Vehicular._Label10">
-<summary>
-Control Label10.
 </summary>
 <remarks>
 Campo generado automáticamente.

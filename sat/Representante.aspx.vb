@@ -47,7 +47,7 @@ Public Class Representante
 
                 .ExecuteNonQuery()
             End With
-            Response.Redirect("indexx.aspx")
+            Response.Redirect("index.aspx")
 
         End If
         xcon.Close()
