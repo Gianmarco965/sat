@@ -21,19 +21,19 @@ Public Class Predio
             xcmd.CommandType = CommandType.StoredProcedure
 
             With xcmd
-                .Parameters.Add("cod_contri", codContri.Text)
-                .Parameters.Add("idDistrito", idDistrito.SelectedIndex + 1)
-                .Parameters.Add("ubicacion_P", ubicacion_P.Text)
-                .Parameters.Add("referencia_P", referencia_p.Text)
-                .Parameters.Add("idCondicion_P", idCondicion.Text + 1)
-                .Parameters.Add("descripcion_Condicion", descripcion_Condi.Text)
-                .Parameters.Add("idEstado", idEstado.SelectedIndex + 1)
-                .Parameters.Add("idUso_Predio", idUso_predio.SelectedIndex + 1)
-                .Parameters.Add("idTipo", idTipo.SelectedIndex + 1)
-                .Parameters.Add("descripcion_TipoP", Descripcion_Tipo.Text)
-                .Parameters.Add("fecha_adq", fecha.Text)
-                .Parameters.Add("area_Terreno", Area_Terreno.Text)
-                .Parameters.Add("observacion", Area_Terreno.Text)
+                .Parameters.AddWithValue("cod_contri", codContri.Text)
+                .Parameters.AddWithValue("idDistrito", idDistrito.SelectedIndex + 1)
+                .Parameters.AddWithValue("ubicacion_P", ubicacion_P.Text)
+                .Parameters.AddWithValue("referencia_P", referencia_p.Text)
+                .Parameters.AddWithValue("idCondicion_P", idCondicion.Text + 1)
+                .Parameters.AddWithValue("descripcion_Condicion", descripcion_Condi.Text)
+                .Parameters.AddWithValue("idEstado", idEstado.SelectedIndex + 1)
+                .Parameters.AddWithValue("idUso_Predio", idUso_predio.SelectedIndex + 1)
+                .Parameters.AddWithValue("idTipo", idTipo.SelectedIndex + 1)
+                .Parameters.AddWithValue("descripcion_TipoP", Descripcion_Tipo.Text)
+                .Parameters.AddWithValue("fecha_adq", fecha.Text)
+                .Parameters.AddWithValue("area_Terreno", Area_Terreno.Text)
+                .Parameters.AddWithValue("observacion", Area_Terreno.Text)
                 .ExecuteNonQuery()
 
 

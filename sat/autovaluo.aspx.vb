@@ -5,10 +5,11 @@ Public Class autovaluo
     Inherits System.Web.UI.Page
     Dim xcon As New SqlConnection("Data Source=.;Initial Catalog=sat;Integrated Security=True")
     Dim dt As DataTable
+    Dim idpredio As Integer
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         llenarTipo()
-        predio.Text = Request.QueryString("a")
-
+        idpredio = Request.QueryString("a")
+        predio.Text = Request.QueryString("codcontri")
     End Sub
 
     Protected Sub btnIngresar_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnIngresar.Click
@@ -19,13 +20,12 @@ Public Class autovaluo
             Dim xcmd As New SqlCommand("IngAutovaluo", xcon)
             xcmd.CommandType = CommandType.StoredProcedure
             With xcmd
-                .Parameters.AddWithValue("idpredio", Integer.Parse(codpredio.Text))
+                .Parameters.AddWithValue("idpredio", idpredio)
                 .Parameters.AddWithValue("nivel", Integer.Parse(nivel.Text))
                 .Parameters.AddWithValue("ambiente", ambiente.Text)
                 .Parameters.AddWithValue("idInst_elect", inst_elect.Text)
                 .Parameters.AddWithValue("idtipo_material", Integer.Parse(idTippo_material.SelectedIndex + 1))
                 .Parameters.AddWithValue("area_construida", area.Text)
-
 
                 .ExecuteNonQuery()
             End With
@@ -38,10 +38,7 @@ Public Class autovaluo
             xcon.Close()
             mostrarAuto()
 
-
-
         End Try
-
 
     End Sub
 
@@ -52,7 +49,7 @@ Public Class autovaluo
             Dim xcmd As New SqlCommand("MostrarAutovaluo", xcon)
             xcmd.CommandType = CommandType.StoredProcedure
 
-            xcmd.Parameters.AddWithValue("codpredio", codpredio.Text)
+            xcmd.Parameters.AddWithValue("codpredio", idpredio)
             xcmd.ExecuteNonQuery()
 
             Dim adapter As New SqlDataAdapter(xcmd)
@@ -103,9 +100,6 @@ Public Class autovaluo
             Dim table As New DataTable
             rs.Fill(table)
 
-            codpredio.Text = table.Rows(0)(0).ToString()
-            MsgBox(table.Rows(0)(0).ToString())
-
             MsgBox("EL PREDIO SE ENCUENTRA REGISTRADO")
             xcon.Close()
         Catch ex As Exception
@@ -117,4 +111,6 @@ Public Class autovaluo
         Dim a As String = predio.Text
         Response.Redirect("Representante.aspx?a=" + a)
     End Sub
+
+
 End Class

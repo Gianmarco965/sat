@@ -180,15 +180,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.autovaluo._codpredio">
-<summary>
-Control codpredio.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.autovaluo._btnIngresar">
 <summary>
 Control btnIngresar.
@@ -759,15 +750,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.Propietario._descripcionP">
 <summary>
 Control descripcionP.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Propietario._codpredio">
-<summary>
-Control codpredio.
 </summary>
 <remarks>
 Campo generado automáticamente.

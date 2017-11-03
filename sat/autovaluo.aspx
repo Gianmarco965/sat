@@ -154,9 +154,7 @@ http://www.templatemo.com/tm-395-urbanic
                         <td></td>
                         <td>
 
-                            <asp:TextBox ID="codpredio" runat="server" class="w3-input"
-                                placeholder="Nombre del Propietario..." MaxLength="50" Width="170px"></asp:TextBox>
-                        </td>
+                            &nbsp;</td>
                     </tr>
                     </div>
 

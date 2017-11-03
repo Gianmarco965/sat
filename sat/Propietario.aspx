@@ -201,8 +201,7 @@ http://www.templatemo.com/tm-395-urbanic
                         </td>
                         <td></td>
                         <td>
-                            <asp:TextBox  class="w3-input" ID="codpredio" runat="server"></asp:TextBox>
-                        </td>
+                            &nbsp;</td>
                     </tr>
 
                         </div>
