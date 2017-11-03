@@ -288,18 +288,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.WebForm1._Button1">
+<member name="F:sat.WebForm1._form1">
 <summary>
-Control Button1.
+Control form1.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.WebForm1._form1">
+<member name="F:sat.WebForm1._formularioxd">
 <summary>
-Control form1.
+Control formularioxd.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -315,9 +315,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.WebForm1._email">
+<member name="F:sat.WebForm1._TextBox1">
 <summary>
-Control email.
+Control TextBox1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -531,15 +531,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Predio._Label15">
-<summary>
-Control Label15.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Predio._codContri">
 <summary>
 Control codContri.
@@ -558,15 +549,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Predio._Label4">
-<summary>
-Control Label4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Predio._ubicacion_P">
 <summary>
 Control ubicacion_P.
@@ -576,27 +558,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Predio._Label8">
-<summary>
-Control Label8.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Predio._referencia_p">
 <summary>
 Control referencia_p.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Predio._Label1">
-<summary>
-Control Label1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -621,15 +585,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Predio._Label6">
-<summary>
-Control Label6.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Predio._idCondicion">
 <summary>
 Control idCondicion.
@@ -648,27 +603,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Predio._Label2">
-<summary>
-Control Label2.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Predio._descripcion_Condi">
 <summary>
 Control descripcion_Condi.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Predio._Label9">
-<summary>
-Control Label9.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -693,15 +630,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Predio._Label11">
-<summary>
-Control Label11.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Predio._idUso_predio">
 <summary>
 Control idUso_predio.
@@ -714,15 +642,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.Predio._SqlDataSource4">
 <summary>
 Control SqlDataSource4.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Predio._Label12">
-<summary>
-Control Label12.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -747,27 +666,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Predio._Label3">
-<summary>
-Control Label3.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Predio._Descripcion_Tipo">
 <summary>
 Control Descripcion_Tipo.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Predio._Label13">
-<summary>
-Control Label13.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -783,27 +684,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Predio._Label14">
-<summary>
-Control Label14.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.Predio._Area_Terreno">
 <summary>
 Control Area_Terreno.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.Predio._Label5">
-<summary>
-Control Label5.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1127,7 +1010,52 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member>
 <member name="F:sat.PropietarioVehiculo._form1">
 <summary>
-control form1.
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._txtdniat">
+<summary>
+Control txtdniat.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._btnAgregarPotencia">
+<summary>
+Control btnAgregarPotencia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._lblmensaje">
+<summary>
+Control lblmensaje.
 </summary>
 <remarks>
 Campo generado automáticamente.

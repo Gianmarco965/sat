@@ -12,21 +12,8 @@ Public Class WebForm1
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
 
-
-
     End Sub
 
-
-
-
-
-
-
-
-
-    Protected Sub TextBox1_TextChanged(ByVal sender As Object, ByVal e As EventArgs)
-
-    End Sub
 
     Protected Sub btnIngre_Click(sender As Object, e As EventArgs) Handles btnIngre.Click
         Dim a As Integer = 0
@@ -36,7 +23,7 @@ Public Class WebForm1
             xcon.Open()
             Dim xcmd As New SqlCommand("usu", xcon)
             xcmd.CommandType = CommandType.StoredProcedure
-            xcmd.Parameters.AddWithValue("@email", email.Text)
+            xcmd.Parameters.AddWithValue("@email", TextBox1.Text)
             xcmd.Parameters.AddWithValue("@password", password.Text)
             xcmd.Parameters.AddWithValue("@tipo", idTrabajador.SelectedIndex + 1)
 
@@ -59,7 +46,7 @@ Public Class WebForm1
             End If
 
             If a = 2 Then
-                Response.Redirect("indexx.aspx")
+                Response.Redirect("index.aspx")
                 Me.ClearChildState()
             End If
 

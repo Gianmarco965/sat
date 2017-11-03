@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-top-bar {
+    display:flex;
     min-height: 40px;
     background-color:#eeeeee;
 }
@@ -78,6 +79,13 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 #templatemo-carousel .item {
     height: 500px;
 }
+.pull-right {
+    float: right !important;
+}
+.pull-left {
+    float: left !important;
+}
+
 #templatemo-carousel .carousel-inner > .item > img {
     position: absolute;
     min-width: 100%;
@@ -156,6 +164,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .subheader {
+    display: inline-flex;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
     margin-top: 12px;

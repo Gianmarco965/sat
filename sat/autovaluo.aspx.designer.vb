@@ -23,15 +23,6 @@ Partial Public Class autovaluo
     Protected WithEvents form2 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''Control Label15.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Label15 As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
     '''Control predio.
     '''</summary>
     '''<remarks>
@@ -50,15 +41,6 @@ Partial Public Class autovaluo
     Protected WithEvents ImageButton1 As Global.System.Web.UI.WebControls.ImageButton
     
     '''<summary>
-    '''Control Label16.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Label16 As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
     '''Control nivel.
     '''</summary>
     '''<remarks>
@@ -66,15 +48,6 @@ Partial Public Class autovaluo
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents nivel As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
-    '''Control Label1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''Control ambiente.
@@ -86,15 +59,6 @@ Partial Public Class autovaluo
     Protected WithEvents ambiente As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control Label17.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Label17 As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
     '''Control inst_elect.
     '''</summary>
     '''<remarks>
@@ -104,15 +68,6 @@ Partial Public Class autovaluo
     Protected WithEvents inst_elect As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
-    '''Control Label2.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
     '''Control idTippo_material.
     '''</summary>
     '''<remarks>
@@ -120,15 +75,6 @@ Partial Public Class autovaluo
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents idTippo_material As Global.System.Web.UI.WebControls.DropDownList
-    
-    '''<summary>
-    '''Control Label3.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Label3 As Global.System.Web.UI.WebControls.Label
     
     '''<summary>
     '''Control area.
@@ -158,15 +104,6 @@ Partial Public Class autovaluo
     Protected WithEvents btnIngresar As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''Control MOSTRAR.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents MOSTRAR As Global.System.Web.UI.WebControls.GridView
-    
-    '''<summary>
     '''Control lblMensaje.
     '''</summary>
     '''<remarks>
@@ -183,4 +120,13 @@ Partial Public Class autovaluo
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnSiguiente As Global.System.Web.UI.WebControls.Button
+    
+    '''<summary>
+    '''Control MOSTRAR.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents MOSTRAR As Global.System.Web.UI.WebControls.GridView
 End Class

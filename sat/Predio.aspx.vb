@@ -77,4 +77,9 @@ Public Class Predio
     Protected Sub fecha_TextChanged(ByVal sender As Object, ByVal e As EventArgs) Handles fecha.TextChanged
 
     End Sub
+
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Response.Redirect("index.aspx")
+
+    End Sub
 End Class

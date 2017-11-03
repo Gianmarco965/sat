@@ -14,13 +14,13 @@ Option Explicit On
 Partial Public Class WebForm1
     
     '''<summary>
-    '''Control form1.
+    '''Control formularioxd.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+    Protected WithEvents formularioxd As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
     '''Control Image1.
@@ -32,13 +32,13 @@ Partial Public Class WebForm1
     Protected WithEvents Image1 As Global.System.Web.UI.WebControls.Image
     
     '''<summary>
-    '''Control email.
+    '''Control TextBox1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents email As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents TextBox1 As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Control Image2.
