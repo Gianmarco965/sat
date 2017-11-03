@@ -51,24 +51,34 @@ http://www.templatemo.com/tm-395-urbanic
         </div>
     </div>
 
-    <div class="templatemo-top-menu">
-        <div class="container">
+    
+       
             <!-- Static navbar -->
-            <div class="navbar navbar-default" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
+            
+           
 
-                        <a href="#" class="navbar-brand">
+                        <div class="w3-bar w3-light">
+                            <a href="#" class="w3-bar-item">
                             <img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
-                    </div>
+                            <a href="#" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
+                            
+                            <div class="w3-dropdown-hover">
+                                <button class="w3-button w3-padding-16 w3-text-light-grey">REPORTES</button>
+                                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                                    <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS</a>
+                                    <a href="#" class="w3-bar-item w3-button">REPORTE POR FECHAS</a>
+                                    <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS NO FISCALIZADOS</a>
+                                </div>
+                            </div>
+                            <a href="#" class="w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16">CERRAR SESION</a>
+                        </div>
 
-                </div>
-                <!--/.container-fluid -->
-            </div>
-            <!--/.navbar -->
-        </div>
+                       
+                  
+            
+      
         <!-- /container -->
-    </div>
+
 
 
 
@@ -96,29 +106,29 @@ http://www.templatemo.com/tm-395-urbanic
 
 
                         <td class="style2">&nbsp;</td>
-                        
-                        <td class="style5">
-                        <div class="w3-card-4">    
-                            <a href="http://localhost:1209/Predio.aspx">
-                                <img alt="" class="style6" src="images/predial.jpg" />
-                            </a>
-                            <div class="w3-container w3-center w3-hover-blue">
-                                <p><a href="http://localhost:1209/Predio.aspx">REGISTRO DE PREDIO</a></p>
-                              </div>
-                              </div>
-                        <td class="style20"></td>
-                        <td class="style5">
-                            <div class="w3-card-4">    
 
-                            <a href="http://localhost:1209/Vehicular.aspx">
-                                <img alt="" class="style6" src="images/vehicular.jpg" />
-                            </a>
+                        <td class="style5">
+                            <div class="w3-card-4">
+                                <a href="http://localhost:1209/Predio.aspx">
+                                    <img alt="" class="style6" src="images/predial.jpg" />
+                                </a>
                                 <div class="w3-container w3-center w3-hover-blue">
-                                <p><a href="http://localhost:1209/Vehicular.aspx">REGISTRO DE VEHICULO</a></p>
-                              </div>
-                              </div>
+                                    <p><a href="http://localhost:1209/Predio.aspx">REGISTRO DE PREDIO</a></p>
+                                </div>
+                            </div>
+                            <td class="style20"></td>
+                        <td class="style5">
+                            <div class="w3-card-4">
+
+                                <a href="http://localhost:1209/Vehicular.aspx">
+                                    <img alt="" class="style6" src="images/vehicular.jpg" />
+                                </a>
+                                <div class="w3-container w3-center w3-hover-blue">
+                                    <p><a href="http://localhost:1209/Vehicular.aspx">REGISTRO DE VEHICULO</a></p>
+                                </div>
+                            </div>
                         </td>
-                      
+
 
                     </tr>
 

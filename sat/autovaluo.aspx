@@ -50,24 +50,31 @@ http://www.templatemo.com/tm-395-urbanic
         </div>
     </div>
 
-    <div class="templatemo-top-menu">
-        <div class="container">
-            <!-- Static navbar -->
-            <div class="navbar navbar-default" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
+      <!-- Static navbar -->
+            
+           
 
-                        <a href="#" class="navbar-brand">
+                        <div class="w3-bar w3-light">
+                            <a href="#" class="w3-bar-item">
                             <img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
-                    </div>
+                            <a href="#" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
+                            
+                            <div class="w3-dropdown-hover">
+                                <button class="w3-button w3-padding-16 w3-text-light-grey">REPORTES</button>
+                                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                                    <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS</a>
+                                    <a href="#" class="w3-bar-item w3-button">REPORTE POR FECHAS</a>
+                                    <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS NO FISCALIZADOS</a>
+                                </div>
+                            </div>
+                            <a href="#" class="w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16">CERRAR SESION</a>
+                        </div>
 
-                </div>
-                <!--/.container-fluid -->
-            </div>
-            <!--/.navbar -->
-        </div>
+                       
+                  
+            
+      
         <!-- /container -->
-    </div>
 
 
 
