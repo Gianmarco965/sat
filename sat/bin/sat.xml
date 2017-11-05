@@ -774,36 +774,153 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.PropietarioVehiculo._form1">
+<member name="F:sat.PropietarioVehiculo._form2">
 <summary>
-Control form1.
+Control form2.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.PropietarioVehiculo._txtdniat">
+<member name="F:sat.PropietarioVehiculo._codContri">
 <summary>
-Control txtdniat.
+Control codContri.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.PropietarioVehiculo._Button1">
+<member name="F:sat.PropietarioVehiculo._ImageButton1">
 <summary>
-Control Button1.
+Control ImageButton1.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.PropietarioVehiculo._btnAgregarPotencia">
+<member name="F:sat.PropietarioVehiculo._nombew">
 <summary>
-Control btnAgregarPotencia.
+Control nombew.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._ApellidoP">
+<summary>
+Control ApellidoP.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._ApellidoM">
+<summary>
+Control ApellidoM.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._dni">
+<summary>
+Control dni.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._iddistrito">
+<summary>
+Control iddistrito.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._Direccion">
+<summary>
+Control Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._Referencia">
+<summary>
+Control Referencia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._cel">
+<summary>
+Control cel.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._correo">
+<summary>
+Control correo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._idt_predio">
+<summary>
+Control idt_predio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._SqlDataSource2">
+<summary>
+Control SqlDataSource2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._descripcionP">
+<summary>
+Control descripcionP.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._btnAgregarPredio">
+<summary>
+Control btnAgregarPredio.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -910,6 +1027,96 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </remarks>
 </member>
 <member name="F:sat.Representante._codpredio">
+<summary>
+Control codpredio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.RepresentanteVehiculo._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.RepresentanteVehiculo._predio">
+<summary>
+Control predio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.RepresentanteVehiculo._ImageButton1">
+<summary>
+Control ImageButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.RepresentanteVehiculo._txtnombres">
+<summary>
+Control txtnombres.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.RepresentanteVehiculo._txtapellido">
+<summary>
+Control txtapellido.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.RepresentanteVehiculo._txtdni">
+<summary>
+Control txtdni.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.RepresentanteVehiculo._idTippo_material">
+<summary>
+Control idTippo_material.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.RepresentanteVehiculo._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.RepresentanteVehiculo._btnregistrar">
+<summary>
+Control btnregistrar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.RepresentanteVehiculo._codpredio">
 <summary>
 Control codpredio.
 </summary>
@@ -1182,6 +1389,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.Vehicular._lblmensaje">
 <summary>
 Control lblmensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.VerPredios._PlaceHolder1">
+<summary>
+Control PlaceHolder1.
 </summary>
 <remarks>
 Campo generado automáticamente.

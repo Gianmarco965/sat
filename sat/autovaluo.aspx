@@ -28,6 +28,18 @@ http://www.templatemo.com/tm-395-urbanic
 
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
 
+    <script language="vb" runat="server">
+
+        Protected Sub FancyBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+            FormsAuthentication.SignOut()
+
+            Response.Redirect(Request.UrlReferrer.ToString())
+
+        End Sub
+
+
+    </script>
 
 
 
@@ -57,7 +69,7 @@ http://www.templatemo.com/tm-395-urbanic
                         <div class="w3-bar w3-light">
                             <a href="#" class="w3-bar-item">
                             <img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
-                            <a href="#" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
+                            <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             
                             <div class="w3-dropdown-hover">
                                 <button class="w3-button w3-padding-16 w3-text-light-grey">REPORTES</button>
@@ -67,7 +79,7 @@ http://www.templatemo.com/tm-395-urbanic
                                     <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS NO FISCALIZADOS</a>
                                 </div>
                             </div>
-                            <a href="#" class="w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16">CERRAR SESION</a>
+                            <input type="button"  onserverclick="FancyBtn_Click" runat="server" class="btn btn-default w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16" value="Cerrar SESION"/>
                         </div>
 
                        
@@ -86,8 +98,8 @@ http://www.templatemo.com/tm-395-urbanic
     <div class="templatemo-t w3-bar" id="templatemo-about" dir="ltr"
         style="background-image: url('images/backgr.png');">
 
-
-        <div class="w3-container w3-display-middle w3-margin-top">
+      
+        
 
             <form id="form2" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin" runat="server">
 
@@ -185,8 +197,10 @@ http://www.templatemo.com/tm-395-urbanic
 
 
                 </ul>
-                 <div class="form-group">
+                
+                  <section>
 
+        
                     <center><asp:GridView ID="MOSTRAR" runat="server" class="w3-table" BackColor="White" BorderColor="#3366CC" 
                                          BorderStyle="None" BorderWidth="1px" CellPadding="4">
                                  <FooterStyle BackColor="#99CCCC" ForeColor="#003399" />
@@ -199,14 +213,14 @@ http://www.templatemo.com/tm-395-urbanic
                                  <SortedDescendingCellStyle BackColor="#D6DFDF" />
                                  <SortedDescendingHeaderStyle BackColor="#002876" />
                              </asp:GridView></center>
-                </div>
+        
+                      </section>      
             </form>
 
 
         </div>
 
 
-    </div>
 
 
 

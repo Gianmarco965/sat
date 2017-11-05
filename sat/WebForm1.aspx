@@ -79,9 +79,12 @@ http://www.templatemo.com/tm-395-urbanic
             
                                  <div class="w3-container w3-display-middle w3-margin-top">
                                  <form id="formularioxd"  class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin" runat="server">
+                                     
+
                                       <h2 class="w3-center" style="color: #000000;" >Iniciar Sesión</h2>
                                      <div class="w3-row w3-section ">
                                          <div class="w3-col" style="width:50px">
+                                              
                                         <asp:Image ID="Image1" runat="server" Height="33px" 
                                             ImageUrl="~/images/Vista_icons_04.png" Width="36px" />
                                              </div>
@@ -117,7 +120,9 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:Button class="w3-input w3-blue w3-hover-blue-gray" ID="btnIngre" runat="server" Text="LOGIN" >
 
                               </asp:Button >
+                            
                              </div>
+                                      
                                  </form>
 
                   

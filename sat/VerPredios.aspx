@@ -1,17 +1,13 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="index.aspx.vb" Inherits="sat.WebForm1" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="VerPredios.aspx.vb" Inherits="sat.VerPredios" %>
 
 <!DOCTYPE html">
-
-
 <html>
 <head>
-    <title>Urbanic Free Website Template</title>
+    <title>VER PREDIOS</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <!--
-
-Urbanic Template
-
+Urbanic Templat
 http://www.templatemo.com/tm-395-urbanic
 
 -->
@@ -28,21 +24,6 @@ http://www.templatemo.com/tm-395-urbanic
     <!-- Custom styles for this template -->
 
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
-
-    <script language="vb" runat="server">
-
-        Protected Sub FancyBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-
-            FormsAuthentication.SignOut()
-
-            Response.Redirect(Request.UrlReferrer.ToString())
-
-        End Sub
-
-
-    </script>
-
-
 </head>
 
 <body>
@@ -62,16 +43,12 @@ http://www.templatemo.com/tm-395-urbanic
         </div>
     </div>
 
-    
-       
             <!-- Static navbar -->
-            
-           
 
                         <div class="w3-bar w3-light">
                             <a href="#" class="w3-bar-item">
                             <img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
-                            <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
+                            <a href="#" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             
                             <div class="w3-dropdown-hover">
                                 <button class="w3-button w3-padding-16 w3-text-light-grey">REPORTES</button>
@@ -81,24 +58,9 @@ http://www.templatemo.com/tm-395-urbanic
                                     <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS NO FISCALIZADOS</a>
                                 </div>
                             </div>
-                       
-                             <input type="button"  onserverclick="FancyBtn_Click" runat="server" class="btn btn-default w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16" value="Cerrar SESION"/>
-                     
-                          
-                       
-                                </div>
-
-                       
-                  
-            
-      
+                            <a href="#" class="w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16">CERRAR SESION</a>
+                        </div>
         <!-- /container -->
-
-
-
-
-
-
 
     <!-- /.templatemo-ABOUT -->
 
@@ -106,56 +68,18 @@ http://www.templatemo.com/tm-395-urbanic
         style="background-image: url('images/backgr.png');">
 
 
-        <div class="w3-container w3-display-middle w3-margin-top">
+        <section>
 
 
+          
 
 
-
-
-            <form id="form1" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin" runat="server">
-
-                <h2 style="color: #000000;">REGISTRO</h2>
-                <table class="style1">
-                    <tr>
-
-
-                        <td class="style2">&nbsp;</td>
-
-                        <td class="style5">
-                            <div class="w3-card-4">
-                                <a href="http://localhost:1209/Predio.aspx">
-                                    <img alt="" class="style6" src="images/predial.jpg" />
-                                </a>
-                                <div class="w3-container w3-center w3-hover-blue">
-                                    <p><a href="http://localhost:1209/Predio.aspx">REGISTRO DE PREDIO</a></p>
-                                </div>
-                            </div>
-                            <td class="style20"></td>
-                        <td class="style5">
-                            <div class="w3-card-4">
-
-                                <a href="http://localhost:1209/Vehicular.aspx">
-                                    <img alt="" class="style6" src="images/vehicular.jpg" />
-                                </a>
-                                <div class="w3-container w3-center w3-hover-blue">
-                                    <p><a href="http://localhost:1209/Vehicular.aspx">REGISTRO DE VEHICULO</a></p>
-                                </div>
-                            </div>
-                        </td>
-
-
-                    </tr>
-
-
-                </table>
-            </form>
-        </div>
+                <h2 style="color: #000000;">VER PREDIOS</h2>
+         
+            <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
+     
+        </section>
     </div>
-
-
-
-
 
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>

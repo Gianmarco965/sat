@@ -27,7 +27,18 @@ http://www.templatemo.com/tm-395-urbanic
     <!-- Custom styles for this template -->
 
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
+     <script language="vb" runat="server">
 
+        Protected Sub FancyBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+            FormsAuthentication.SignOut()
+
+            Response.Redirect(Request.UrlReferrer.ToString())
+
+        End Sub
+
+
+    </script>
 
 
 
@@ -50,25 +61,34 @@ http://www.templatemo.com/tm-395-urbanic
         </div>
     </div>
 
-    <div class="templatemo-top-menu">
-        <div class="container">
-            <!-- Static navbar -->
-            <div class="navbar navbar-default" role="navigation">
-                <div class="container">
-                    <div class="navbar-header">
+    <!-- Static navbar -->
+            
+           
 
-                        <a href="#" class="navbar-brand">
+                        <div class="w3-bar w3-light">
+                            <a href="#" class="w3-bar-item">
                             <img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
-                    </div>
+                            <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
+                            
+                            <div class="w3-dropdown-hover">
+                                <button class="w3-button w3-padding-16 w3-text-light-grey">REPORTES</button>
+                                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                                    <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS</a>
+                                    <a href="#" class="w3-bar-item w3-button">REPORTE POR FECHAS</a>
+                                    <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS NO FISCALIZADOS</a>
+                                </div>
+                            </div>
+                            <input type="button"  onserverclick="FancyBtn_Click" runat="server" class="btn btn-default w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16" value="Cerrar SESION"/>
+                        </div>
 
-                </div>
-                <!--/.container-fluid -->
-            </div>
-            <!--/.navbar -->
-        </div>
+                       
+                  
+            
+      
         <!-- /container -->
-    </div>
-
+            
+      
+        <!-- /container -->
 
 
 
@@ -79,53 +99,166 @@ http://www.templatemo.com/tm-395-urbanic
     <div class="templatemo-t w3-bar" id="templatemo-about" dir="ltr"
         style="background-image: url('images/backgr.png');">
 
-           <div class="w3-container w3-display-middle w3-margin-top">
-                         
-                          
-                            
+        <div class="w3-container w3-display-middle w3-margin-top">
 
-                          <form id="form1"  class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin" runat="server" > 
-                        <h2 
-                                
-                                style="color: #000000;">REG.DE PROPIETARIO DE VEHICULO</h2>
+            <form id="form2" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin" runat="server">
+                <h2 style="color: #000000;">REGISTRO DE PROPIETARIO</h2>
                 <table>
-                  
+                    <div class="w3-row">
+                        <tr>
+                            <td>
+                                <label>Codigo del Contribuyente</label>
+                                <asp:TextBox ID="codContri" runat="server" class="w3-input"
+                                    placeholder="Codigo del Contribuyente..." MaxLength="50" ></asp:TextBox>
+                            </td>
+
+                            <td>
+                                <asp:ImageButton ID="ImageButton1" runat="server" 
+                                    ImageUrl="~/images/Buscar.png" Width="20px" />
+                            </td>
+
+                        </tr>
+                    </div>
+                    <div class="w3-row">
+                    <tr>
+
+                        <td>
+                            <label>Nombre del Propietario</label>
+                            <asp:TextBox class="w3-input" ID="nombew" runat="server" placeholder="Nombre del Propietario..." MaxLength="50" ></asp:TextBox>
+                        </td>
+                        <td>
+                           
+                        </td>
+                        <td>
+                            <label>Apellido Paterno</label>
+                            <asp:TextBox ID="ApellidoP" class="w3-input" runat="server" placeholder="Apellido Paterno..." MaxLength="50" ></asp:TextBox>
+                        </td>
+                        <td>
+                          
+                        </td>
+                        <td>
+                            <label>Apellido Materno</label>
+                            <asp:TextBox class="w3-input" ID="ApellidoM" runat="server" placeholder="Apellido Materno..." MaxLength="50" ></asp:TextBox>
+                        </td>
+                    </tr>
+
+                    </div>
+
+                    <div class="w3-row">
+                    <tr>
+                      
+                        <td>
+                            <label>DNI</label>
+                            <asp:TextBox ID="dni" class="w3-input" runat="server" placeholder="Documento de Identidad......" MaxLength="50" Width="170px"></asp:TextBox>
+                        </td>
+                        <td>
+                            
+                        </td>
+                        <td>
+                            <label>Distrito</label>
+                            <asp:DropDownList class="w3-select w3-border" ID="iddistrito" runat="server" maxlength="50" 
+                                DataSourceID="SqlDataSource1" DataTextField="descripcion"
+                                DataValueField="idDistrito" TabIndex="1">
+                            </asp:DropDownList>
+                            <asp:SqlDataSource ID="SqlDataSource1" runat="server"
+                                ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
+                                SelectCommand="SELECT [idDistrito], [descripcion] FROM [Distrito]"></asp:SqlDataSource>
+                        </td>
+                        <td>
+                         
+                        </td>
+                        <td>
+                            <label>Direccion del Domicilio</label>
+                            <asp:TextBox ID="Direccion" class="w3-input" runat="server" placeholder="Direción..." MaxLength="50" ></asp:TextBox>
+                        </td>
+                    </tr>
+                        </div>  
+                     <div class="w3-row">
+                    <tr>
+                        
+                        <td class="style6">
+                            <label>Referencia del Domicilio</label>
+                            <asp:TextBox ID="Referencia" runat="server" class="w3-input"
+                                placeholder="Referencia..." MaxLength="50"  ></asp:TextBox>
+                        </td>
+                        <td>
+                           
+                        </td>
+                        <td>
+                            <label>Numero de Celular</label>
+                            <asp:TextBox ID="cel" runat="server" class="w3-input" placeholder="Numero de Celular..." MaxLength="50" ></asp:TextBox>
+                        </td>
+                        <td>
+                           
+                        </td>
+                        <td class="style6">
+                            <label>Correo Electronico</label>
+                            <asp:TextBox ID="correo" class="w3-input" runat="server" placeholder="email...." MaxLength="50" Width="170px"></asp:TextBox>
+                        </td>
+                    </tr>
+                    </div>
+                    <div class="w3-row">
+
                     <tr>
                         
                         <td>
-                            <label>Dni</label>
-                         <asp:TextBox ID="txtdniat" runat="server"  class="w3-input"
-                                  placeholder="DNI." maxlength="50" Width="170px"></asp:TextBox>
-                             </td>
+                            <label>Tipo de Domicilio</label>
+                            <asp:DropDownList ID="idt_predio" runat="server"
+                                placeholder="Tipo de Domicilio....." maxlength="50" class="w3-select w3-border"
+                                DataSourceID="SqlDataSource2" DataTextField="descripcion"
+                                DataValueField="idT_predio" TabIndex="1">
+                            </asp:DropDownList>
+                            <asp:SqlDataSource ID="SqlDataSource2" runat="server"
+                                ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
+                                SelectCommand="SELECT [idT_predio], [descripcion] FROM [Tipo_Predio]"></asp:SqlDataSource>
+                        </td>
+                        <td>
+                           
+                        </td>
+                        <td>
+                            <label>Descripcion del Domicilio</label>
+                            <asp:TextBox class="w3-input" ID="descripcionP" runat="server" placeholder="Descripcion del Domicilio...." MaxLength="50" ></asp:TextBox>
+                        </td>
+                        <td></td>
+                        <td>
+                            &nbsp;</td>
                     </tr>
 
-                        
+                        </div>
+
                 </table>
 
-                
-        
-                      
-                            <div class="form-group">
-                                <asp:Button ID="Button1" runat="server" 
-                                    Text="Anterior" class="w3-button w3-gray" BackColor="Blue"  
-                                    Width="115px" />  <asp:Button ID="btnAgregarPotencia" runat="server" 
-                                    Text="Registrar" class="w3-button w3-blue" BackColor="Blue" 
-                                    Width="115px" /> </div>
-                             <div class="form-group"><center>
-                             <asp:Label ID="lblmensaje" runat="server" Height="19px" ForeColor="Red"></asp:Label></center></div>
-                             
-                             
-                             </form>
-                    
-                          
-                          
-                          
-                           </div>
-                            
+
+                <div class="form-group">
+
+                    <div class="form-group">
+                        <asp:Button ID="btnAgregarPredio" runat="server" Text="Registrar" class="w3-button w3-blue" />
                     </div>
+                    <div class="form-group">
+                        <center>
+                            <asp:Label ID="lblmensaje" runat="server"
+                                Text="" Height="19px" ForeColor="#FF0066"></asp:Label>
+                        </center>
+                    </div>
+            </form>
 
-                   
-         
+        </div>
 
+
+
+    </div>
+
+
+    <!-- /.REGISTRO -->
+
+
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/stickUp.min.js" type="text/javascript"></script>
+    <script src="js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
+    <script src="js/templatemo_script.js" type="text/javascript"></script>
+    <!-- templatemo 395 urbanic -->
 </body>
 </html>
+

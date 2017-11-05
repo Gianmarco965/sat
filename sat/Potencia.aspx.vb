@@ -7,7 +7,7 @@ Public Class Potencia
     Dim idvehiculo As Integer
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
-        idvehiculo = Request.QueryString("a")
+        idvehiculo = Integer.Parse(Request.QueryString("idvehiculo"))
 
     End Sub
 
@@ -41,6 +41,7 @@ Public Class Potencia
 
 
             Response.Redirect("PropietarioVehiculo.aspx?idvehiculo=" + idvehiculo.ToString())
+            MsgBox(idvehiculo.ToString())
 
         End Try
 

@@ -1,5 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Representante.aspx.vb" Inherits="sat.Representante" %>
-
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="RepresentanteVehiculo.aspx.vb" Inherits="sat.RepresentanteVehiculo" %>
 <!DOCTYPE html>
 
 <html>
@@ -27,8 +26,7 @@ http://www.templatemo.com/tm-395-urbanic
     <!-- Custom styles for this template -->
 
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
-
-    <script language="vb" runat="server">
+     <script language="vb" runat="server">
 
         Protected Sub FancyBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
@@ -62,7 +60,7 @@ http://www.templatemo.com/tm-395-urbanic
         </div>
     </div>
 
-     <!-- Static navbar -->
+    <!-- Static navbar -->
             
            
 
@@ -87,8 +85,6 @@ http://www.templatemo.com/tm-395-urbanic
             
       
         <!-- /container -->
-
-
 
 
 

@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Propietario.aspx.vb" Inherits="sat.Propietario" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -28,7 +28,18 @@ http://www.templatemo.com/tm-395-urbanic
 
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
 
+     <script language="vb" runat="server">
 
+        Protected Sub FancyBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+            FormsAuthentication.SignOut()
+
+            Response.Redirect(Request.UrlReferrer.ToString())
+
+        End Sub
+
+
+    </script>
 
 
 </head>
@@ -57,7 +68,7 @@ http://www.templatemo.com/tm-395-urbanic
                         <div class="w3-bar w3-light">
                             <a href="#" class="w3-bar-item">
                             <img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
-                            <a href="#" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
+                            <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             
                             <div class="w3-dropdown-hover">
                                 <button class="w3-button w3-padding-16 w3-text-light-grey">REPORTES</button>
@@ -67,7 +78,7 @@ http://www.templatemo.com/tm-395-urbanic
                                     <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS NO FISCALIZADOS</a>
                                 </div>
                             </div>
-                            <a href="#" class="w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16">CERRAR SESION</a>
+                            <input type="button"  onserverclick="FancyBtn_Click" runat="server" class="btn btn-default w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16" value="Cerrar SESION"/>
                         </div>
 
                        
@@ -85,7 +96,7 @@ http://www.templatemo.com/tm-395-urbanic
     <div class="templatemo-t w3-bar" id="templatemo-about" dir="ltr"
         style="background-image: url('images/backgr.png');">
 
-        <div class="w3-container w3-display-middle w3-margin-top">
+       
 
             <form id="form2" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin" runat="server">
                 <h2 style="color: #000000;">REGISTRO DE PROPIETARIO</h2>
@@ -232,7 +243,7 @@ http://www.templatemo.com/tm-395-urbanic
 
 
 
-    </div>
+ 
 
 
     <!-- /.REGISTRO -->

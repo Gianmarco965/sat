@@ -54,6 +54,8 @@ Public Class autovaluo
 
             Dim adapter As New SqlDataAdapter(xcmd)
             dt = New DataTable
+
+
             adapter.Fill(dt)
             MOSTRAR.DataSource = dt
             MOSTRAR.DataBind()

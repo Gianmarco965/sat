@@ -1,12 +1,13 @@
 ﻿Imports System.Data
 Imports System.Data.SqlClient
-
+Imports sat.Autentificacion
 
 Public Class WebForm1
     Inherits System.Web.UI.Page
     Dim xcon As New SqlConnection("Data Source=.;Initial Catalog=sat;Integrated Security=True")
     Dim dt As New DataSet
     Dim ad As SqlDataAdapter
+
 
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
@@ -18,42 +19,28 @@ Public Class WebForm1
     Protected Sub btnIngre_Click(sender As Object, e As EventArgs) Handles btnIngre.Click
         Dim a As Integer = 0
 
+        If (Autentificacion.Autenticar(TextBox1.Text, password.Text, idTrabajador.SelectedIndex + 1).validar) Then
 
-        Try
-            xcon.Open()
-            Dim xcmd As New SqlCommand("usu", xcon)
-            xcmd.CommandType = CommandType.StoredProcedure
-            xcmd.Parameters.AddWithValue("@email", TextBox1.Text)
-            xcmd.Parameters.AddWithValue("@password", password.Text)
-            xcmd.Parameters.AddWithValue("@tipo", idTrabajador.SelectedIndex + 1)
-
-            ad = New SqlDataAdapter(xcmd)
-            Dim dt As New DataTable
-
-            ad.Fill(dt)
-            a = dt.Rows(0)(5).ToString()
-
-        Catch ex As Exception
-            MsgBox("Datos incorrectos")
-        Finally
-
-            If a = 1 Then
+            If Autenticar(TextBox1.Text, password.Text, idTrabajador.SelectedIndex + 1).a = 1 Then
+                FormsAuthentication.RedirectFromLoginPage(TextBox1.Text, True, "Fiscalizador.aspx")
                 Response.Redirect("Fiscalizador.aspx")
 
                 Me.ClearChildState()
+            Else
 
-
-            End If
-
-            If a = 2 Then
+                FormsAuthentication.RedirectFromLoginPage(TextBox1.Text, True, "index.aspx")
                 Response.Redirect("index.aspx")
                 Me.ClearChildState()
             End If
 
+        End If
 
-            xcon.Close()
 
-        End Try
+
+
+
+
+
 
 
 
