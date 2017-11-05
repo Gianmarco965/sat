@@ -23,24 +23,6 @@ Partial Public Class PropietarioVehiculo
     Protected WithEvents form2 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''Control codContri.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents codContri As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
-    '''Control ImageButton1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents ImageButton1 As Global.System.Web.UI.WebControls.ImageButton
-    
-    '''<summary>
     '''Control nombew.
     '''</summary>
     '''<remarks>

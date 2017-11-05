@@ -193,13 +193,13 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-    background-color: #006da8;
+    background-color: #0070c0;
     color:#fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color: #006da8;
+    background-color: #0070c0;
     color:#fff;
 }
 
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .navbar-default {
-    background-color:#006da8;
+    background-color:#0070c0;
     border:none;
 }
 

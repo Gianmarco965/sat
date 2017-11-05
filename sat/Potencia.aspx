@@ -65,9 +65,9 @@ http://www.templatemo.com/tm-395-urbanic
             
            
 
-                        <div class="w3-bar w3-light">
+                        <div class="w3-bar navbar navbar-default" role="navigation">
                             <a href="#" class="w3-bar-item">
-                            <img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
+                            <img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
                             <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             
                             <div class="w3-dropdown-hover">

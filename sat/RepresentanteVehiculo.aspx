@@ -63,10 +63,9 @@ http://www.templatemo.com/tm-395-urbanic
     <!-- Static navbar -->
             
            
-
-                        <div class="w3-bar w3-light">
-                            <a href="#" class="w3-bar-item">
-                            <img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
+    <div class="w3-bar navbar navbar-default" role="navigation">
+                            <a href="index.aspx" class="w3-bar-item">
+                            <img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
                             <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             
                             <div class="w3-dropdown-hover">
@@ -107,16 +106,7 @@ http://www.templatemo.com/tm-395-urbanic
                                 <table>
 
                                     <tr>                             
-                                        <td>
-                                            <label>Codigo del Contribuyente</label>
-                                            <asp:TextBox ID="predio" runat="server" class="w3-input"
-                                                placeholder="Codigo del Contribuyente..." MaxLength="50" ></asp:TextBox>
-                                           </td>
-                                        <td>
-                                             <asp:ImageButton ID="ImageButton1" runat="server" Height="16px"
-                                                ImageUrl="~/images/Buscar.png" Width="16px" />
-
-                                        </td>
+                                        
                                          <td>
                                             <label>Nombres</label>
                                             <asp:TextBox ID="txtnombres" runat="server" class="w3-input"

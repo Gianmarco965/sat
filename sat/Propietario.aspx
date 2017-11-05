@@ -65,9 +65,9 @@ http://www.templatemo.com/tm-395-urbanic
             
            
 
-                        <div class="w3-bar w3-light">
+                     <div class="w3-bar navbar navbar-default" role="navigation">
                             <a href="#" class="w3-bar-item">
-                            <img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
+                            <img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
                             <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             
                             <div class="w3-dropdown-hover">
@@ -97,7 +97,7 @@ http://www.templatemo.com/tm-395-urbanic
         style="background-image: url('images/backgr.png');">
 
        
-
+        <div class="w3-container w3-display-middle w3-margin-top">
             <form id="form2" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin" runat="server">
                 <h2 style="color: #000000;">REGISTRO DE PROPIETARIO</h2>
                 <table>
@@ -123,20 +123,23 @@ http://www.templatemo.com/tm-395-urbanic
                             <label>Nombre del Propietario</label>
                             <asp:TextBox class="w3-input" ID="nombew" runat="server" placeholder="Nombre del Propietario..." MaxLength="50" ></asp:TextBox>
                         </td>
-                        <td>
-                           
-                        </td>
+                      
                         <td>
                             <label>Apellido Paterno</label>
                             <asp:TextBox ID="ApellidoP" class="w3-input" runat="server" placeholder="Apellido Paterno..." MaxLength="50" ></asp:TextBox>
                         </td>
-                        <td>
-                          
-                        </td>
+                       
                         <td>
                             <label>Apellido Materno</label>
                             <asp:TextBox class="w3-input" ID="ApellidoM" runat="server" placeholder="Apellido Materno..." MaxLength="50" ></asp:TextBox>
                         </td>
+
+                           <td>
+                            <label>DNI</label>
+                            <asp:TextBox ID="dni" class="w3-input" runat="server" placeholder="Documento de Identidad......" MaxLength="50" Width="170px"></asp:TextBox>
+                        </td>
+
+
                     </tr>
 
                     </div>
@@ -144,13 +147,8 @@ http://www.templatemo.com/tm-395-urbanic
                     <div class="w3-row">
                     <tr>
                       
-                        <td>
-                            <label>DNI</label>
-                            <asp:TextBox ID="dni" class="w3-input" runat="server" placeholder="Documento de Identidad......" MaxLength="50" Width="170px"></asp:TextBox>
-                        </td>
-                        <td>
-                            
-                        </td>
+                     
+                       
                         <td>
                             <label>Distrito</label>
                             <asp:DropDownList class="w3-select w3-border" ID="iddistrito" runat="server" maxlength="50" 
@@ -161,44 +159,35 @@ http://www.templatemo.com/tm-395-urbanic
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [idDistrito], [descripcion] FROM [Distrito]"></asp:SqlDataSource>
                         </td>
-                        <td>
-                         
-                        </td>
+                    
                         <td>
                             <label>Direccion del Domicilio</label>
                             <asp:TextBox ID="Direccion" class="w3-input" runat="server" placeholder="Direción..." MaxLength="50" ></asp:TextBox>
+                        </td>
+
+                          
+                        <td class="style6">
+                            <label>Ref. del Domicilio</label>
+                            <asp:TextBox ID="Referencia" runat="server" class="w3-input"
+                                placeholder="Referencia..." MaxLength="50"  ></asp:TextBox>
+                        </td>
+
+                        <td>
+                            <label>Numero de Celular</label>
+                            <asp:TextBox ID="cel" runat="server" class="w3-input" placeholder="Numero de Celular..." MaxLength="50" ></asp:TextBox>
                         </td>
                     </tr>
                         </div>
                      <div class="w3-row">
                     <tr>
-                        
-                        <td class="style6">
-                            <label>Referencia del Domicilio</label>
-                            <asp:TextBox ID="Referencia" runat="server" class="w3-input"
-                                placeholder="Referencia..." MaxLength="50"  ></asp:TextBox>
-                        </td>
-                        <td>
-                           
-                        </td>
-                        <td>
-                            <label>Numero de Celular</label>
-                            <asp:TextBox ID="cel" runat="server" class="w3-input" placeholder="Numero de Celular..." MaxLength="50" ></asp:TextBox>
-                        </td>
-                        <td>
-                           
-                        </td>
+                      
+                    
                         <td class="style6">
                             <label>Correo Electronico</label>
                             <asp:TextBox ID="correo" class="w3-input" runat="server" placeholder="email...." MaxLength="50" Width="170px"></asp:TextBox>
                         </td>
-                    </tr>
-                    </div>
-                    <div class="w3-row">
 
-                    <tr>
-                        
-                        <td>
+                         <td>
                             <label>Tipo de Domicilio</label>
                             <asp:DropDownList ID="idt_predio" runat="server"
                                 placeholder="Tipo de Domicilio....." maxlength="50" class="w3-select w3-border"
@@ -209,13 +198,20 @@ http://www.templatemo.com/tm-395-urbanic
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [idT_predio], [descripcion] FROM [Tipo_Predio]"></asp:SqlDataSource>
                         </td>
-                        <td>
-                           
-                        </td>
-                        <td>
+
+                         <td>
                             <label>Descripcion del Domicilio</label>
                             <asp:TextBox class="w3-input" ID="descripcionP" runat="server" placeholder="Descripcion del Domicilio...." MaxLength="50" ></asp:TextBox>
                         </td>
+                    </tr>
+                    </div>
+                    <div class="w3-row">
+
+                    <tr>
+                        
+                       
+                       
+                       
                         <td></td>
                         <td>
                             &nbsp;</td>
@@ -238,7 +234,8 @@ http://www.templatemo.com/tm-395-urbanic
                         </center>
                     </div>
             </form>
-
+            
+</div>
         </div>
 
 

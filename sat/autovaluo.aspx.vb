@@ -30,7 +30,7 @@ Public Class autovaluo
                 .ExecuteNonQuery()
             End With
 
-            lblMensaje.Text = "Grabo Correctamente, Clientes Agregado"
+
         Catch ex As Exception
             lblMensaje.Text = "Error" & ex.Message
         Finally

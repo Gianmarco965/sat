@@ -65,9 +65,9 @@ http://www.templatemo.com/tm-395-urbanic
             
            
 
-                        <div class="w3-bar w3-light">
+                        <div class="w3-bar navbar navbar-default" role="navigation">
                             <a href="#" class="w3-bar-item">
-                            <img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
+                            <img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
                             <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             
                             <div class="w3-dropdown-hover">
@@ -104,21 +104,7 @@ http://www.templatemo.com/tm-395-urbanic
             <form id="form2" class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin" runat="server">
                 <h2 style="color: #000000;">REGISTRO DE PROPIETARIO</h2>
                 <table>
-                    <div class="w3-row">
-                        <tr>
-                            <td>
-                                <label>Codigo del Contribuyente</label>
-                                <asp:TextBox ID="codContri" runat="server" class="w3-input"
-                                    placeholder="Codigo del Contribuyente..." MaxLength="50" ></asp:TextBox>
-                            </td>
-
-                            <td>
-                                <asp:ImageButton ID="ImageButton1" runat="server" 
-                                    ImageUrl="~/images/Buscar.png" Width="20px" />
-                            </td>
-
-                        </tr>
-                    </div>
+                  
                     <div class="w3-row">
                     <tr>
 

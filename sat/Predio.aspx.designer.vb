@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class Predio
-    
+
     '''<summary>
     '''Control form1.
     '''</summary>
@@ -21,7 +21,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-    
+
     '''<summary>
     '''Control codContri.
     '''</summary>
@@ -30,7 +30,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents codContri As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control ImageButton1.
     '''</summary>
@@ -39,7 +39,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents ImageButton1 As Global.System.Web.UI.WebControls.ImageButton
-    
+
     '''<summary>
     '''Control ubicacion_P.
     '''</summary>
@@ -48,7 +48,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents ubicacion_P As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control referencia_p.
     '''</summary>
@@ -57,7 +57,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents referencia_p As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control idDistrito.
     '''</summary>
@@ -66,7 +66,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents idDistrito As Global.System.Web.UI.WebControls.DropDownList
-    
+
     '''<summary>
     '''Control SqlDataSource1.
     '''</summary>
@@ -75,7 +75,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
-    
+
     '''<summary>
     '''Control idCondicion.
     '''</summary>
@@ -84,7 +84,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents idCondicion As Global.System.Web.UI.WebControls.DropDownList
-    
+
     '''<summary>
     '''Control SqlDataSource2.
     '''</summary>
@@ -93,7 +93,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents SqlDataSource2 As Global.System.Web.UI.WebControls.SqlDataSource
-    
+
     '''<summary>
     '''Control descripcion_Condi.
     '''</summary>
@@ -102,7 +102,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents descripcion_Condi As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control idEstado.
     '''</summary>
@@ -111,7 +111,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents idEstado As Global.System.Web.UI.WebControls.DropDownList
-    
+
     '''<summary>
     '''Control SqlDataSource3.
     '''</summary>
@@ -120,7 +120,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents SqlDataSource3 As Global.System.Web.UI.WebControls.SqlDataSource
-    
+
     '''<summary>
     '''Control idUso_predio.
     '''</summary>
@@ -129,7 +129,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents idUso_predio As Global.System.Web.UI.WebControls.DropDownList
-    
+
     '''<summary>
     '''Control SqlDataSource4.
     '''</summary>
@@ -138,7 +138,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents SqlDataSource4 As Global.System.Web.UI.WebControls.SqlDataSource
-    
+
     '''<summary>
     '''Control idTipo.
     '''</summary>
@@ -147,7 +147,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents idTipo As Global.System.Web.UI.WebControls.DropDownList
-    
+
     '''<summary>
     '''Control SqlDataSource5.
     '''</summary>
@@ -156,7 +156,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents SqlDataSource5 As Global.System.Web.UI.WebControls.SqlDataSource
-    
+
     '''<summary>
     '''Control Descripcion_Tipo.
     '''</summary>
@@ -165,7 +165,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Descripcion_Tipo As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control fecha.
     '''</summary>
@@ -174,7 +174,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents fecha As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control Area_Terreno.
     '''</summary>
@@ -183,7 +183,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Area_Terreno As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control Observacion.
     '''</summary>
@@ -192,7 +192,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Observacion As Global.System.Web.UI.WebControls.TextBox
-    
+
     '''<summary>
     '''Control Button1.
     '''</summary>
@@ -201,7 +201,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
-    
+
     '''<summary>
     '''Control btnAgregarPredio.
     '''</summary>
@@ -210,7 +210,7 @@ Partial Public Class Predio
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnAgregarPredio As Global.System.Web.UI.WebControls.Button
-    
+
     '''<summary>
     '''Control lblmensaje.
     '''</summary>

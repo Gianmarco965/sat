@@ -216,6 +216,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.EditarPredio._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Fiscalizador._form1">
 <summary>
 control form1.
@@ -783,24 +792,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.PropietarioVehiculo._codContri">
-<summary>
-Control codContri.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.PropietarioVehiculo._ImageButton1">
-<summary>
-Control ImageButton1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:sat.PropietarioVehiculo._nombew">
 <summary>
 Control nombew.
@@ -1038,24 +1029,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.RepresentanteVehiculo._form1">
 <summary>
 Control form1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.RepresentanteVehiculo._predio">
-<summary>
-Control predio.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:sat.RepresentanteVehiculo._ImageButton1">
-<summary>
-Control ImageButton1.
 </summary>
 <remarks>
 Campo generado automáticamente.

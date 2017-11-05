@@ -64,10 +64,9 @@ http://www.templatemo.com/tm-395-urbanic
     <!-- Static navbar -->
             
            
-
-                        <div class="w3-bar w3-light">
+    <div class="w3-bar navbar navbar-default" role="navigation">
                             <a href="#" class="w3-bar-item">
-                            <img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
+                            <img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
                             <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             
                             <div class="w3-dropdown-hover">
@@ -98,7 +97,7 @@ http://www.templatemo.com/tm-395-urbanic
 
 
       
-
+        <div class="w3-container w3-display-middle w3-margin-top">
 
             <form id="form1"  class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin"  runat="server">
                 
@@ -125,9 +124,8 @@ http://www.templatemo.com/tm-395-urbanic
                              <label>Direccion</label>
                             <asp:TextBox  class="w3-input" ID="ubicacion_P" runat="server" placeholder="Dirección..." MaxLength="50" ></asp:TextBox>
                         </td>
-                            <td></td>
+                           
                             
-                      
                         <td>
                              <label>Referencia</label>
                             <asp:TextBox ID="referencia_p" runat="server" class="w3-input"
@@ -135,9 +133,7 @@ http://www.templatemo.com/tm-395-urbanic
                                 ></asp:TextBox>
                         </td>
 
-                        <td>
-                          
-                        </td>
+                        
                         <td>
                              <label>Distrito</label>
                             <asp:DropDownList ID="idDistrito" class="w3-select w3-border" runat="server" placeholder="....."
@@ -148,14 +144,7 @@ http://www.templatemo.com/tm-395-urbanic
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [idDistrito], [descripcion] FROM [Distrito]"></asp:SqlDataSource>
                         </td>
-                    </tr>
-                         
-                   </div>
 
-                     <div class="w3-row">
-                    <tr>
-                        
-                           
                         <td>
                              <label>Condicion del Predio</label>
                             <asp:DropDownList ID="idCondicion" runat="server" placeholder="....."
@@ -167,15 +156,21 @@ http://www.templatemo.com/tm-395-urbanic
                                 SelectCommand="SELECT [idCondicion_P], [descripcion] FROM [Condicion_Propiedad]"></asp:SqlDataSource>
                         </td>
                         <td>
-                            
-                        </td>
-                        <td>
                             <label>Descripcion de la Condicion</label>
                             <asp:TextBox class="w3-input" ID="descripcion_Condi" runat="server" placeholder="Desc. de la Condición." MaxLength="50" ></asp:TextBox>
                         </td>
-                        <td>
-                            
-                        </td>
+
+                    </tr>
+                         
+                   </div>
+
+                     <div class="w3-row">
+                    <tr>
+                        
+                           
+                      
+                        
+                      
                         <td>
                             <label>Estado del Predio</label>
                             <asp:DropDownList ID="idEstado" runat="server" placeholder="....."
@@ -186,13 +181,7 @@ http://www.templatemo.com/tm-395-urbanic
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [idEstado], [descripcion] FROM [Estado]"></asp:SqlDataSource>
                         </td>
-                    </tr>
 
-                         </div>
-
-                    <div class="w3-row">
-                    <tr>
-                        
                         <td>
                             <label>Uso del Predio</label>
                             <asp:DropDownList ID="idUso_predio" class="w3-select w3-border" runat="server" placeholder="....."
@@ -203,10 +192,8 @@ http://www.templatemo.com/tm-395-urbanic
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [descripcion], [idUso_Predio] FROM [Uso_Predio]"></asp:SqlDataSource>
                         </td>
-                        <td>
-                           
-                        </td>
-                        <td>
+
+                          <td>
                             <label>Uso del Predio</label>
                             <asp:DropDownList ID="idTipo" class="w3-select w3-border" runat="server" placeholder="....." maxlength="50"
                                 DataSourceID="SqlDataSource5" DataTextField="descripcion"
@@ -216,14 +203,44 @@ http://www.templatemo.com/tm-395-urbanic
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [descripcion], [idTipo] FROM [Tipo]"></asp:SqlDataSource>
                         </td>
-
+                        
                         <td>
-                     
-                        </td>
-                        <td>
-                            <label>Desc. del Tipo de Predio</label>
+                            <label>Desc. Tipo de Predio</label>
                             <asp:TextBox class="w3-input" ID="Descripcion_Tipo" runat="server" placeholder="descripcion de otro tipo" MaxLength="50"></asp:TextBox>
                         </td>
+
+                          <td>
+                            <label>Fecha de Adq.</label>
+                            <asp:TextBox ID="fecha" runat="server" class="w3-input"
+                                placeholder="Fecha..." MaxLength="50"  TextMode="Date"></asp:TextBox>
+                        </td>
+                    </tr>
+
+                         </div>
+
+                    <div class="w3-row">
+                    <tr>
+                        
+                        
+                    
+
+                      
+                        
+                       <td>
+                            <label>Area del Terreno</label>
+                            <asp:TextBox ID="Area_Terreno" class="w3-input" runat="server" placeholder="Área del terreno" MaxLength="50" ></asp:TextBox>
+                          
+                        </td>
+
+                         <td>
+
+                            <label>Observacion</label>
+                            <asp:TextBox ID="Observacion" runat="server" class="w3-input"
+                                placeholder="Observacion" MaxLength="50"></asp:TextBox>
+
+                        </td>
+
+
                     </tr>
                          </div>
                     
@@ -231,31 +248,11 @@ http://www.templatemo.com/tm-395-urbanic
 
                     <tr>
                        
-                        <td>
-                            <label>Fecha de Adq.</label>
-                            <asp:TextBox ID="fecha" runat="server" class="w3-input"
-                                placeholder="Fecha..." MaxLength="50"  TextMode="Date"></asp:TextBox>
-                        </td>
-                        <td>
-                          
-                        </td>
-                        <td>
-                            <label>Area del Terreno</label>
-                            <asp:TextBox ID="Area_Terreno" class="w3-input" runat="server" placeholder="Área del terreno" MaxLength="50" ></asp:TextBox>
-                          
-                        </td>
+                      
+                       
 
-
-                        <td>
-                         
-                        </td>
-                        <td>
-
-                            <label>Observacion</label>
-                            <asp:TextBox ID="Observacion" runat="server" class="w3-input"
-                                placeholder="Observacion" MaxLength="50"></asp:TextBox>
-
-                        </td>
+                       
+                       
                     </tr>
                          </div>
                 </table>
@@ -278,7 +275,7 @@ http://www.templatemo.com/tm-395-urbanic
 
             </form>
 
-
+            </div>
 
 
         </div>

@@ -57,7 +57,7 @@ http://www.templatemo.com/tm-395-urbanic
                     <div class="container">
                         <div class="navbar-header">
                                 
-                               <a href="#" class="navbar-brand"><img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
+                               <a href="#" class="navbar-brand"><img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
                         </div>
                        
                     </div><!--/.container-fluid -->

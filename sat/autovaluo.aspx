@@ -43,6 +43,23 @@ http://www.templatemo.com/tm-395-urbanic
 
 
 
+    <style type="text/css">
+        .auto-style1 {
+            width: 188px;
+        }
+        .auto-style2 {
+            width: 226px;
+        }
+        .auto-style3 {
+            width: 228px;
+        }
+        .auto-style4 {
+            width: 231px;
+        }
+    </style>
+
+
+
 </head>
 
 <body>
@@ -66,9 +83,9 @@ http://www.templatemo.com/tm-395-urbanic
             
            
 
-                        <div class="w3-bar w3-light">
+          <div class="w3-bar navbar navbar-default" role="navigation">
                             <a href="#" class="w3-bar-item">
-                            <img src="images/logo1.jpg" alt="Urbanic Template" title="Urbanic Template" /></a>
+                            <img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
                             <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             
                             <div class="w3-dropdown-hover">
@@ -109,14 +126,14 @@ http://www.templatemo.com/tm-395-urbanic
                     <tr>
                        
        
-                        <td class="style8">
+                        <td class="auto-style1">
                             <label>Codigo del Contribuyente</label>
                             <asp:TextBox class="w3-input" ID="predio" runat="server"
-                                placeholder="Codigo del Contribuyente..." MaxLength="50" Width="114px"></asp:TextBox>
+                                placeholder="Codigo del Contribuyente..." MaxLength="50" ></asp:TextBox>
                            
 
                         </td>
-                        <td>
+                        <td class="auto-style2">
                              <asp:ImageButton ID="ImageButton1" runat="server" Height="16px"
                                 ImageUrl="~/images/Buscar.png" Width="16px" />
                         </td>
@@ -127,54 +144,44 @@ http://www.templatemo.com/tm-395-urbanic
                     <div class="w3-row">
                     <tr>
                 
-                        <td>
+                        <td class="auto-style1">
                             <label>Nivel</label>
-                            <asp:TextBox class="w3-input" ID="nivel" runat="server" placeholder="Nivel..." MaxLength="50"></asp:TextBox>
+                            <asp:TextBox class="w3-input" ID="nivel" runat="server" placeholder="Nivel..." MaxLength="50" Width="245px"></asp:TextBox>
                         </td>
-                        <td>
-                            
-                           
-                        </td>
-                        <td>
+                       
+                        <td class="auto-style2">
                             <label>Ambiente del Predio</label>
-                            <asp:TextBox  class="w3-input" ID="ambiente" runat="server" placeholder="Ambiente..." MaxLength="50" Width="170px"></asp:TextBox>
+                            <asp:TextBox  class="w3-input" ID="ambiente" runat="server" placeholder="Ambiente..." MaxLength="50" Width="240px"></asp:TextBox>
 
                         </td>
-                        <td>
-                          
-                        </td>
-                        <td>
-                            <label>Instalacion Electrica</label>
-                            <asp:DropDownList ID="inst_elect" runat="server" class="w3-select w3-border" maxlength="50" Width="170px">
+                       
+                        <td class="auto-style3">
+                            <label>Ints. Electrica</label>
+                            <asp:DropDownList ID="inst_elect" runat="server" class="w3-input w3-border" maxlength="50" Width="227px">
                                 <asp:ListItem>SI</asp:ListItem>
                                 <asp:ListItem>NO</asp:ListItem>
                             </asp:DropDownList>
                         </td>
+
+                          <td class="auto-style4">
+                            <label>Tipo de Material</label>
+                            <asp:DropDownList ID="idTippo_material" runat="server" class="w3-input w3-border"
+                                maxlength="50" Width="264px" TabIndex="1">
+                            </asp:DropDownList>
+                        </td>
+                                   
+                        <td>
+                            <label>Area del Ambiente</label>
+                            <asp:TextBox ID="area" class="w3-input" runat="server" placeholder="Área..." MaxLength="50" Width="340px"></asp:TextBox></td>
+
+
+
                     </tr>
                     </div>
 
                     <div class="w3-row">
 
-                    <tr>
-                        
-                        <td class="style5">
-                            <label>Tipo de Material</label>
-                            <asp:DropDownList ID="idTippo_material" runat="server" class="w3-select w3-border"
-                                maxlength="50" Width="170px" TabIndex="1">
-                            </asp:DropDownList>
-                        </td>
-                        <td>
-
-                        </td>
-
-                        <td>
-                            <label>Area del Ambiente</label>
-                            <asp:TextBox ID="area" class="w3-input" runat="server" placeholder="Área..." MaxLength="50" Width="170px"></asp:TextBox></td>
-                        <td></td>
-                        <td>
-
-                            &nbsp;</td>
-                    </tr>
+                  
                     </div>
 
 
@@ -182,8 +189,7 @@ http://www.templatemo.com/tm-395-urbanic
 
 
                 <asp:Button ID="btnIngresar" runat="server" class="w3-button w3-blue" Text="ingresar" />
-                <div class="form-group">
-                </div>
+               
                
            
                 <asp:Label ID="lblMensaje" runat="server" Font-Bold="True" ForeColor="Red"></asp:Label>
