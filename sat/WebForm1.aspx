@@ -89,7 +89,7 @@ http://www.templatemo.com/tm-395-urbanic
                                             ImageUrl="~/images/Vista_icons_04.png" Width="36px" />
                                              </div>
                                          <div class="w3-rest">
-                                        <asp:TextBox type="text" ID="TextBox1" class="w3-input" runat="server" placeholder="Usuario" maxlength="50" ></asp:TextBox>
+                                        <asp:TextBox type="text" ID="TextBox1" class="w3-input" runat="server" placeholder="Usuario" Width="170px"></asp:TextBox>
                                              </div>
                                      </div>
                                      <div class="w3-row w3-section">
@@ -98,12 +98,12 @@ http://www.templatemo.com/tm-395-urbanic
                                                ImageUrl="~/images/Vista_icons_08.png" Width="39px" />
                                         </div>
                                          <div class="w3-rest">
-                                           <asp:TextBox ID="password" class="w3-input"  runat="server" placeholder="Contraseña" maxlength="50" Width="170px"></asp:TextBox> 
+                                           <asp:TextBox ID="password" type="password" class="w3-input"  runat="server" placeholder="Contraseña" maxlength="50" Width="170px"></asp:TextBox> 
                                         </div>
                                    </div>
                          
                               <div class="w3-row w3-section ">
-                              <asp:DropDownList class="w3-input" ID="idTrabajador" runat="server" 
+                              <asp:DropDownList class="w3-select" ID="idTrabajador" runat="server" 
                                   placeholder="....." maxlength="50"  DataSourceID="SqlDataSource2" 
                                   DataTextField="descripcion" DataValueField="idtipo" TabIndex="1">  </asp:DropDownList>
                               <asp:SqlDataSource ID="SqlDataSource2" runat="server" 
@@ -117,7 +117,7 @@ http://www.templatemo.com/tm-395-urbanic
                          
                         </div>
                          <div class="w3-row w3-section ">
-                            <asp:Button class="w3-input w3-blue w3-hover-blue-gray" ID="btnIngre" runat="server" Text="LOGIN" >
+                            <asp:Button class="w3-input w3-blue w3-hover-blue-gray" ID="btnIngre" runat="server" Text="LOGIN" Width="100%" >
 
                               </asp:Button >
                             

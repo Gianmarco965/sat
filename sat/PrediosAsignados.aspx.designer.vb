@@ -11,14 +11,14 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class Fiscalizador
+Partial Public Class PrediosAsignados
     
     '''<summary>
-    '''Control form1.
+    '''Control PlaceHolder1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+    Protected WithEvents PlaceHolder1 As Global.System.Web.UI.WebControls.PlaceHolder
 End Class

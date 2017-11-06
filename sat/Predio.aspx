@@ -110,8 +110,19 @@ http://www.templatemo.com/tm-395-urbanic
                             <label>Codigo del Contribuyente</label>
                             <asp:TextBox ID="codContri" runat="server" class="w3-input"
                                 placeholder="Codigo del Contribuyente..."  ></asp:TextBox>
+                          
                             
                         </td>
+                            <td>
+                                   <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                              ControlToValidate="codContri"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+                            </td>
+
+
                            <td><asp:ImageButton ID="ImageButton1" runat="server" Height="25px"
                                 ImageUrl="~/images/Buscar.png" Width="25px" /></td>
                             
@@ -122,7 +133,16 @@ http://www.templatemo.com/tm-395-urbanic
       
                         <td>
                              <label>Direccion</label>
-                            <asp:TextBox  class="w3-input" ID="ubicacion_P" runat="server" placeholder="Dirección..." MaxLength="50" ></asp:TextBox>
+                            <asp:TextBox   class="w3-input" ID="ubicacion_P" runat="server" placeholder="Dirección..." MaxLength="50" ></asp:TextBox>
+                          
+                        </td>
+                        <td>
+                              <asp:RequiredFieldValidator id="RequiredFieldValidator2" runat="server"
+                              ControlToValidate="ubicacion_P"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
                         </td>
                            
                             
@@ -131,6 +151,17 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:TextBox ID="referencia_p" runat="server" class="w3-input"
                                 placeholder="Referencia del la Dirección..." MaxLength="50" 
                                 ></asp:TextBox>
+                           
+
+                        </td>
+
+                        <td>
+                             <asp:RequiredFieldValidator id="RequiredFieldValidator3" runat="server"
+                              ControlToValidate="referencia_p"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
                         </td>
 
                         
@@ -143,10 +174,21 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:SqlDataSource ID="SqlDataSource1" runat="server"
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [idDistrito], [descripcion] FROM [Distrito]"></asp:SqlDataSource>
+
+                        </td>
+
+
+                        <td>
+                          <asp:RequiredFieldValidator id="RequiredFieldValidator4" runat="server"
+                              ControlToValidate="idDistrito"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
                         </td>
 
                         <td>
-                             <label>Condicion del Predio</label>
+                             <label>Condicion</label>
                             <asp:DropDownList ID="idCondicion" runat="server" placeholder="....."
                                 maxlength="50"  DataSourceID="SqlDataSource2" class="w3-select w3-border"
                                 DataTextField="descripcion" DataValueField="idCondicion_P">
@@ -154,10 +196,36 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:SqlDataSource ID="SqlDataSource2" runat="server"
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [idCondicion_P], [descripcion] FROM [Condicion_Propiedad]"></asp:SqlDataSource>
+
+                          
+
                         </td>
+                        <td>
+                               <asp:RequiredFieldValidator id="RequiredFieldValidator5" runat="server"
+                              ControlToValidate="idCondicion"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
+
+
+
                         <td>
                             <label>Descripcion de la Condicion</label>
                             <asp:TextBox class="w3-input" ID="descripcion_Condi" runat="server" placeholder="Desc. de la Condición." MaxLength="50" ></asp:TextBox>
+                       
+                         
+                        </td>
+
+                        <td>
+                              <asp:RequiredFieldValidator id="RequiredFieldValidator6" runat="server"
+                              ControlToValidate="descripcion_Condi"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
                         </td>
 
                     </tr>
@@ -180,6 +248,18 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:SqlDataSource ID="SqlDataSource3" runat="server"
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [idEstado], [descripcion] FROM [Estado]"></asp:SqlDataSource>
+                       
+                        </td>
+
+                        <td>
+                            
+                            <asp:RequiredFieldValidator id="RequiredFieldValidator7" runat="server"
+                              ControlToValidate="idEstado"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
                         </td>
 
                         <td>
@@ -191,6 +271,18 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:SqlDataSource ID="SqlDataSource4" runat="server"
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [descripcion], [idUso_Predio] FROM [Uso_Predio]"></asp:SqlDataSource>
+                       
+                        </td>
+
+                        <td>
+                                 
+                            <asp:RequiredFieldValidator id="RequiredFieldValidator8" runat="server"
+                              ControlToValidate="idUso_predio"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
                         </td>
 
                           <td>
@@ -202,17 +294,55 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:SqlDataSource ID="SqlDataSource5" runat="server"
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [descripcion], [idTipo] FROM [Tipo]"></asp:SqlDataSource>
+                      
+                        </td>
+
+                        <td>
+                            
+                            <asp:RequiredFieldValidator id="RequiredFieldValidator9" runat="server"
+                              ControlToValidate="idTipo"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+                              
+
                         </td>
                         
                         <td>
                             <label>Desc. Tipo de Predio</label>
                             <asp:TextBox class="w3-input" ID="Descripcion_Tipo" runat="server" placeholder="descripcion de otro tipo" MaxLength="50"></asp:TextBox>
+                         
+                        
+                        
+                        </td>
+
+                        <td>
+                             <asp:RequiredFieldValidator id="RequiredFieldValidator10" runat="server"
+                              ControlToValidate="Descripcion_Tipo"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
                         </td>
 
                           <td>
                             <label>Fecha de Adq.</label>
                             <asp:TextBox ID="fecha" runat="server" class="w3-input"
                                 placeholder="Fecha..." MaxLength="50"  TextMode="Date"></asp:TextBox>
+
+                        
+                        </td>
+
+                        <td>
+                                <asp:RequiredFieldValidator id="RequiredFieldValidator11" runat="server"
+                              ControlToValidate="fecha"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
                         </td>
                     </tr>
 
@@ -229,7 +359,17 @@ http://www.templatemo.com/tm-395-urbanic
                        <td>
                             <label>Area del Terreno</label>
                             <asp:TextBox ID="Area_Terreno" class="w3-input" runat="server" placeholder="Área del terreno" MaxLength="50" ></asp:TextBox>
-                          
+                            
+                        </td>
+
+                        <td>
+                            <asp:RequiredFieldValidator id="RequiredFieldValidator12" runat="server"
+                              ControlToValidate="Area_Terreno"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
                         </td>
 
                          <td>
@@ -237,6 +377,15 @@ http://www.templatemo.com/tm-395-urbanic
                             <label>Observacion</label>
                             <asp:TextBox ID="Observacion" runat="server" class="w3-input"
                                 placeholder="Observacion" MaxLength="50"></asp:TextBox>
+                           
+                        </td>
+                        <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator13" runat="server"
+                              ControlToValidate="Observacion"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
 
                         </td>
 

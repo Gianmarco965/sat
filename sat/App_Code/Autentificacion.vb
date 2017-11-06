@@ -7,9 +7,11 @@ Public Class Autentificacion
     Public Structure DatosLogin
         Public validar As Boolean
         Public a As Integer
-        Sub misdatos(datovalidar As Boolean, validara As Integer)
+        Public idempleado As Integer
+        Sub misdatos(datovalidar As Boolean, validara As Integer, idpersona As Integer)
             validar = datovalidar
             a = validara
+            idempleado = idpersona
         End Sub
     End Structure
 
@@ -18,6 +20,8 @@ Public Class Autentificacion
 
 
         Dim a As Integer = 0
+        Dim idpersona As Integer = 0
+
         Dim ad As SqlDataAdapter
         Using xcon As SqlConnection = New SqlConnection(ConfigurationManager.ConnectionStrings("satConnectionString").ToString)
 
@@ -34,13 +38,14 @@ Public Class Autentificacion
 
                 ad.Fill(dt)
                 a = dt.Rows(0)(5).ToString()
+                idpersona = Integer.Parse(dt.Rows(0)(0).ToString())
 
             Catch ex As Exception
-                datos.misdatos(False, a)
+                datos.misdatos(False, a, idpersona)
 
                 MsgBox("Datos incorrectos")
             Finally
-                datos.misdatos(True, a)
+                datos.misdatos(True, a, idpersona)
 
                 xcon.Close()
 

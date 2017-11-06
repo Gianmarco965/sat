@@ -111,6 +111,16 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:TextBox ID="txtfecha" runat="server" class="w3-input"
                                 placeholder="Fecha..." MaxLength="50" TextMode="Date"></asp:TextBox>
                         </td>
+                         <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator6" runat="server"
+                                              ControlToValidate="txtfecha"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
                        
                         <td>
                             <label>Placa Nueva</label>
@@ -118,6 +128,16 @@ http://www.templatemo.com/tm-395-urbanic
                                 placeholder="Placa Nueva..." MaxLength="50" 
                                 ></asp:TextBox>
                         </td>
+                          <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                                              ControlToValidate="txtplacanueva"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
 
                       
                         <td>
@@ -126,6 +146,16 @@ http://www.templatemo.com/tm-395-urbanic
                                 placeholder="Placa Anterior..." MaxLength="50" 
                                 ></asp:TextBox>
                         </td>
+                         <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator2" runat="server"
+                                              ControlToValidate="txtplacaanterior"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
 
                          <td>
                             <label>Partida Registral</label>
@@ -133,6 +163,17 @@ http://www.templatemo.com/tm-395-urbanic
                                 placeholder="Partida Registral..." MaxLength="50" 
                                ></asp:TextBox>
                         </td>
+                          <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator3" runat="server"
+                                              ControlToValidate="txtpartidareg"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
+
                     </tr>
 
 
@@ -144,6 +185,17 @@ http://www.templatemo.com/tm-395-urbanic
                             <label>Titulo</label>
                             <asp:TextBox ID="txttitulo" runat="server" class="w3-input" placeholder="Titulo....." MaxLength="50" Width="170px"></asp:TextBox>
                         </td>
+
+                          <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator4" runat="server"
+                                              ControlToValidate="txttitulo"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
                        
                         <td>
                             <label>Categoria/Clase</label>
@@ -155,6 +207,16 @@ http://www.templatemo.com/tm-395-urbanic
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [idcategoria_clase], [descripcion] FROM [Categoria_clase]"></asp:SqlDataSource>
                         </td>
+                          <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator5" runat="server"
+                                              ControlToValidate="idEstado"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
                          <td>
                             <label>Marca</label>
                             <asp:DropDownList ID="idmarca" runat="server" class="w3-input" placeholder="....."
@@ -165,6 +227,16 @@ http://www.templatemo.com/tm-395-urbanic
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [idmarca], [descripcion] FROM [Marca_vehiculo]"></asp:SqlDataSource>
                         </td>
+                          <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator7" runat="server"
+                                              ControlToValidate="idmarca"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
                         
                         <td>
                             <label>Modelo</label>
@@ -181,6 +253,16 @@ http://www.templatemo.com/tm-395-urbanic
                                 </SelectParameters>
                             </asp:SqlDataSource>
                         </td>
+                          <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator8" runat="server"
+                                              ControlToValidate="idmodelo"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
                     </tr>
                     <tr>
                       
@@ -193,15 +275,45 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:TextBox ID="txtserie" class="w3-input" runat="server" placeholder="Serie de Chasis " MaxLength="50" Width="170px"></asp:TextBox>
                         </td>
                           <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator9" runat="server"
+                                              ControlToValidate="txtserie"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
+                          <td>
                             <label>Motor</label>
                             <asp:TextBox ID="txtmotor" runat="server" placeholder="Motor del Auto....." class="w3-input"
                                 MaxLength="50"></asp:TextBox>
                         </td>
                         <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator10" runat="server"
+                                              ControlToValidate="txtmotor"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
+                        <td>
                             <label>Color</label>
                             <asp:TextBox ID="txtcolor" runat="server" class="w3-input" placeholder="Color del Auto..... " MaxLength="50"></asp:TextBox>
                           
                         </td>
+                         <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator11" runat="server"
+                                              ControlToValidate="txtcolor"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
 
 
                       
@@ -212,6 +324,16 @@ http://www.templatemo.com/tm-395-urbanic
                                 MaxLength="50"></asp:TextBox>
 
                         </td>
+                           <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator12" runat="server"
+                                              ControlToValidate="txtcarroceria"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
                     </tr>
                   
 
@@ -230,6 +352,15 @@ http://www.templatemo.com/tm-395-urbanic
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [id_combustible], [descripcion] FROM [Tipo_combustible]"></asp:SqlDataSource>
                         </td>
+                         <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator13" runat="server"
+                                              ControlToValidate="id_combustible"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
 
 
              
@@ -241,6 +372,15 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:TextBox ID="txtanofab" runat="server" class="w3-input" placeholder="Año de Fabricación..... " MaxLength="50" TextMode="Date"></asp:TextBox>
                           
                         </td>
+                         <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator14" runat="server"
+                                              ControlToValidate="txtanofab"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
 
 
                         
@@ -251,12 +391,32 @@ http://www.templatemo.com/tm-395-urbanic
                                 MaxLength="50" Width="170px" TextMode="Date"></asp:TextBox>
 
                         </td>
+                         <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator15" runat="server"
+                                              ControlToValidate="txtanomodelo"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
                                   <td>
                                       <label>Año de FAbricacion</label>
                             <asp:TextBox ID="txtfechafab" runat="server" class="w3-input" placeholder="Año de Fabricación..... "
                                 MaxLength="50" Width="170px" TextMode="Date"></asp:TextBox>
 
                         </td>
+                         <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator16" runat="server"
+                                              ControlToValidate="txtfechafab"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
 
                     </tr>
 

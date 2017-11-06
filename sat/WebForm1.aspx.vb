@@ -23,7 +23,8 @@ Public Class WebForm1
 
             If Autenticar(TextBox1.Text, password.Text, idTrabajador.SelectedIndex + 1).a = 1 Then
                 FormsAuthentication.RedirectFromLoginPage(TextBox1.Text, True, "Fiscalizador.aspx")
-                Response.Redirect("Fiscalizador.aspx")
+                Response.Redirect("Fiscalizador.aspx?idfiscalizador=" + Autenticar(TextBox1.Text, password.Text, idTrabajador.SelectedIndex + 1).idempleado.ToString())
+
 
                 Me.ClearChildState()
             Else

@@ -105,14 +105,25 @@ http://www.templatemo.com/tm-395-urbanic
                         <tr>
                             <td>
                                 <label>Codigo del Contribuyente</label>
-                                <asp:TextBox ID="codContri" runat="server" class="w3-input"
+                                <asp:TextBox ReadOnly="true" ID="codContri" runat="server" class="w3-input"
                                     placeholder="Codigo del Contribuyente..." MaxLength="50" ></asp:TextBox>
                             </td>
+
 
                             <td>
                                 <asp:ImageButton ID="ImageButton1" runat="server" 
                                     ImageUrl="~/images/Buscar.png" Width="20px" />
                             </td>
+                             <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator11" runat="server"
+                              ControlToValidate="codContri"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
 
                         </tr>
                     </div>
@@ -123,21 +134,62 @@ http://www.templatemo.com/tm-395-urbanic
                             <label>Nombre del Propietario</label>
                             <asp:TextBox class="w3-input" ID="nombew" runat="server" placeholder="Nombre del Propietario..." MaxLength="50" ></asp:TextBox>
                         </td>
+                         <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator10" runat="server"
+                              ControlToValidate="nombew"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
                       
                         <td>
                             <label>Apellido Paterno</label>
                             <asp:TextBox ID="ApellidoP" class="w3-input" runat="server" placeholder="Apellido Paterno..." MaxLength="50" ></asp:TextBox>
                         </td>
+                        <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator9" runat="server"
+                              ControlToValidate="ApellidoP"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
                        
                         <td>
                             <label>Apellido Materno</label>
                             <asp:TextBox class="w3-input" ID="ApellidoM" runat="server" placeholder="Apellido Materno..." MaxLength="50" ></asp:TextBox>
                         </td>
+                          <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator8" runat="server"
+                              ControlToValidate="ApellidoM"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
 
                            <td>
                             <label>DNI</label>
                             <asp:TextBox ID="dni" class="w3-input" runat="server" placeholder="Documento de Identidad......" MaxLength="50" Width="170px"></asp:TextBox>
+                       
+                           </td>
+                               <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator7" runat="server"
+                              ControlToValidate="dni"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
                         </td>
+
 
 
                     </tr>
@@ -159,11 +211,31 @@ http://www.templatemo.com/tm-395-urbanic
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [idDistrito], [descripcion] FROM [Distrito]"></asp:SqlDataSource>
                         </td>
+                                <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator6" runat="server"
+                              ControlToValidate="iddistrito"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
                     
                         <td>
                             <label>Direccion del Domicilio</label>
                             <asp:TextBox ID="Direccion" class="w3-input" runat="server" placeholder="Direción..." MaxLength="50" ></asp:TextBox>
                         </td>
+                            <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator5" runat="server"
+                              ControlToValidate="Direccion"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
 
                           
                         <td class="style6">
@@ -171,10 +243,29 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:TextBox ID="Referencia" runat="server" class="w3-input"
                                 placeholder="Referencia..." MaxLength="50"  ></asp:TextBox>
                         </td>
+                         <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator4" runat="server"
+                              ControlToValidate="Referencia"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
 
                         <td>
                             <label>Numero de Celular</label>
                             <asp:TextBox ID="cel" runat="server" class="w3-input" placeholder="Numero de Celular..." MaxLength="50" ></asp:TextBox>
+                        </td>
+                        <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator3" runat="server"
+                              ControlToValidate="cel"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
                         </td>
                     </tr>
                         </div>
@@ -186,6 +277,16 @@ http://www.templatemo.com/tm-395-urbanic
                             <label>Correo Electronico</label>
                             <asp:TextBox ID="correo" class="w3-input" runat="server" placeholder="email...." MaxLength="50" Width="170px"></asp:TextBox>
                         </td>
+                              <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator2" runat="server"
+                              ControlToValidate="correo"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
 
                          <td>
                             <label>Tipo de Domicilio</label>
@@ -197,12 +298,33 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:SqlDataSource ID="SqlDataSource2" runat="server"
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [idT_predio], [descripcion] FROM [Tipo_Predio]"></asp:SqlDataSource>
+
+                        </td>
+                        <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                              ControlToValidate="idt_predio"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
                         </td>
 
                          <td>
                             <label>Descripcion del Domicilio</label>
                             <asp:TextBox class="w3-input" ID="descripcionP" runat="server" placeholder="Descripcion del Domicilio...." MaxLength="50" ></asp:TextBox>
                         </td>
+
+                          <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator13" runat="server"
+                              ControlToValidate="descripcionP"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
                     </tr>
                     </div>
                     <div class="w3-row">

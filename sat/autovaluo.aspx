@@ -44,17 +44,17 @@ http://www.templatemo.com/tm-395-urbanic
 
 
     <style type="text/css">
-        .auto-style1 {
-            width: 188px;
-        }
         .auto-style2 {
-            width: 226px;
-        }
-        .auto-style3 {
-            width: 228px;
+            width: 260px;
         }
         .auto-style4 {
             width: 231px;
+        }
+        .auto-style5 {
+            width: 287px;
+        }
+        .auto-style6 {
+            width: 274px;
         }
     </style>
 
@@ -126,13 +126,25 @@ http://www.templatemo.com/tm-395-urbanic
                     <tr>
                        
        
-                        <td class="auto-style1">
+                        <td class="auto-style5">
                             <label>Codigo del Contribuyente</label>
                             <asp:TextBox class="w3-input" ID="predio" runat="server"
                                 placeholder="Codigo del Contribuyente..." MaxLength="50" ></asp:TextBox>
                            
 
                         </td>
+                        <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator11" runat="server"
+                              ControlToValidate="predio"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
+
+
                         <td class="auto-style2">
                              <asp:ImageButton ID="ImageButton1" runat="server" Height="16px"
                                 ImageUrl="~/images/Buscar.png" Width="16px" />
@@ -144,24 +156,55 @@ http://www.templatemo.com/tm-395-urbanic
                     <div class="w3-row">
                     <tr>
                 
-                        <td class="auto-style1">
+                        <td class="auto-style5">
                             <label>Nivel</label>
                             <asp:TextBox class="w3-input" ID="nivel" runat="server" placeholder="Nivel..." MaxLength="50" Width="245px"></asp:TextBox>
                         </td>
+                          <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                              ControlToValidate="nivel"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
+
                        
                         <td class="auto-style2">
                             <label>Ambiente del Predio</label>
                             <asp:TextBox  class="w3-input" ID="ambiente" runat="server" placeholder="Ambiente..." MaxLength="50" Width="240px"></asp:TextBox>
 
                         </td>
+                         <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator2" runat="server"
+                              ControlToValidate="ambiente"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
                        
-                        <td class="auto-style3">
+                        <td class="auto-style6">
                             <label>Ints. Electrica</label>
                             <asp:DropDownList ID="inst_elect" runat="server" class="w3-input w3-border" maxlength="50" Width="227px">
                                 <asp:ListItem>SI</asp:ListItem>
                                 <asp:ListItem>NO</asp:ListItem>
                             </asp:DropDownList>
                         </td>
+                         <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator3" runat="server"
+                              ControlToValidate="inst_elect"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
 
                           <td class="auto-style4">
                             <label>Tipo de Material</label>
@@ -169,10 +212,32 @@ http://www.templatemo.com/tm-395-urbanic
                                 maxlength="50" Width="264px" TabIndex="1">
                             </asp:DropDownList>
                         </td>
+
+                          <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator4" runat="server"
+                              ControlToValidate="idTippo_material"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
                                    
                         <td>
                             <label>Area del Ambiente</label>
                             <asp:TextBox ID="area" class="w3-input" runat="server" placeholder="Área..." MaxLength="50" Width="340px"></asp:TextBox></td>
+
+                          <td>
+                                 <asp:RequiredFieldValidator id="RequiredFieldValidator5" runat="server"
+                              ControlToValidate="area"
+                              ErrorMessage="*"
+                              ForeColor="Red">
+                            </asp:RequiredFieldValidator>
+
+
+                        </td>
+
 
 
 

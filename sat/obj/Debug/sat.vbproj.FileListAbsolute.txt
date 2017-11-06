@@ -15,3 +15,4 @@ C:\Users\archa\Videos\sat\sat\obj\Debug\sat.vbproj.GenerateResource.Cache
 C:\Users\archa\Videos\sat\sat\obj\Debug\sat.dll
 C:\Users\archa\Videos\sat\sat\obj\Debug\sat.xml
 C:\Users\archa\Videos\sat\sat\obj\Debug\sat.pdb
+C:\Users\archa\Videos\sat\sat\obj\Debug\sat.vbprojResolveAssemblyReference.cache

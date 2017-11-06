@@ -227,7 +227,7 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 </member>
 <member name="F:sat.Fiscalizador._form1">
 <summary>
-control form1.
+Control form1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -615,6 +615,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.Predio._lblmensaje">
 <summary>
 Control lblmensaje.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PrediosAsignados._PlaceHolder1">
+<summary>
+Control PlaceHolder1.
 </summary>
 <remarks>
 Campo generado automáticamente.

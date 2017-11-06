@@ -111,6 +111,16 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:TextBox ID="txtlongitud" runat="server"  class="w3-input"
                                   placeholder="Longitud..." maxlength="50" ></asp:TextBox>
                         </td>
+                          <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator5" runat="server"
+                                              ControlToValidate="txtlongitud"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+                            </td>
+
+
                        
                         <td>
                             <label>Altura</label>
@@ -118,6 +128,14 @@ http://www.templatemo.com/tm-395-urbanic
                                 placeholder="Altura..." maxlength="50" Width="170px" 
                                 ></asp:TextBox> 
                         </td>
+                          <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator4" runat="server"
+                                              ControlToValidate="txtaltura"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+                            </td>
 
                       
                         <td>
@@ -126,6 +144,16 @@ http://www.templatemo.com/tm-395-urbanic
                                 placeholder="Ancho..." maxlength="50" 
                                 ></asp:TextBox> 
                         </td>
+                           <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator3" runat="server"
+                                              ControlToValidate="txtancho"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+                            </td>
+
+
                     </tr>
                     <tr>
                        
@@ -135,16 +163,45 @@ http://www.templatemo.com/tm-395-urbanic
                                 placeholder="Cilindro..." maxlength="50" Width="170px" 
                                 ></asp:TextBox> 
                         </td>
+                           <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator2" runat="server"
+                                              ControlToValidate="txtcilindro"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+                            </td>
+
+
                        
                         <td>
                             <label>Peso bruto</label>
                             <asp:TextBox ID="txtpbruto" runat="server" class="w3-input" placeholder="Peso Bruto....." maxlength="50" Width="170px"></asp:TextBox>
                         </td>
+                           <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                                              ControlToValidate="txtpbruto"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+                            </td>
+
                      
                         <td>
                             <label>Peso Neto</label>
                             <asp:TextBox ID="txtpneto" class="w3-input" runat="server" placeholder="Peso neto " maxlength="50" Width="170px"></asp:TextBox>
                         </td>
+                         <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator16" runat="server"
+                                              ControlToValidate="txtpneto"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
                     </tr>
                     
 

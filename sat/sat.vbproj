@@ -201,6 +201,7 @@
     <Content Include="js\templatemo_script.js" />
     <Content Include="Potencia.aspx" />
     <Content Include="Predio.aspx" />
+    <Content Include="PrediosAsignados.aspx" />
     <Content Include="Propietario.aspx" />
     <Content Include="PropietarioVehiculo.aspx" />
     <Content Include="RegistroyPlanificacion.aspx" />
@@ -322,6 +323,13 @@
     </Compile>
     <Compile Include="Predio.aspx.vb">
       <DependentUpon>Predio.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PrediosAsignados.aspx.designer.vb">
+      <DependentUpon>PrediosAsignados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PrediosAsignados.aspx.vb">
+      <DependentUpon>PrediosAsignados.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Propietario.aspx.designer.vb">

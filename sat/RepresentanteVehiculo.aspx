@@ -112,6 +112,16 @@ http://www.templatemo.com/tm-395-urbanic
                                             <asp:TextBox ID="txtnombres" runat="server" class="w3-input"
                                                 placeholder="Nombre del Contribuyente..." MaxLength="50" ></asp:TextBox>
                                            </td>
+                                           <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator12" runat="server"
+                                              ControlToValidate="txtnombres"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
                                        
                                     </tr>
 
@@ -128,6 +138,16 @@ http://www.templatemo.com/tm-395-urbanic
                                             <asp:TextBox ID="txtapellido" runat="server" class="w3-input" placeholder="Apellidos..." MaxLength="50" ></asp:TextBox>
 
                                         </td>
+                                         <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
+                                              ControlToValidate="txtapellido"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
                                         <td>
                                            
                                         </td>
@@ -135,6 +155,16 @@ http://www.templatemo.com/tm-395-urbanic
                                             <label>Documento de Identidad</label>
                                             <asp:TextBox ID="txtdni" runat="server" class="w3-input" placeholder="Documento de Identidad..." MaxLength="50" ></asp:TextBox>
                                         </td>
+                                         <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator2" runat="server"
+                                              ControlToValidate="txtdni"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
                                     </tr>
 
 
@@ -153,6 +183,16 @@ http://www.templatemo.com/tm-395-urbanic
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
                                 SelectCommand="SELECT [descripcion], [idParentesco] FROM [Parentesco]"></asp:SqlDataSource>
                         </td>
+                                        <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator3" runat="server"
+                                              ControlToValidate="idTippo_material"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
+
                                        
                                     </tr>
 
@@ -166,6 +206,15 @@ http://www.templatemo.com/tm-395-urbanic
                                                 placeholder="Nombre del Propietario..." MaxLength="50" Width="170px"
                                                 Visible="False"></asp:TextBox>
                                         </td>
+                                        <td>
+                                            <asp:RequiredFieldValidator id="RequiredFieldValidator4" runat="server"
+                                              ControlToValidate="codpredio"
+                                              ErrorMessage="*"
+                                              ForeColor="Red">
+                                            </asp:RequiredFieldValidator>
+
+
+                                          </td>
                                     </tr>
 
 
