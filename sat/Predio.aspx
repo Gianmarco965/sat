@@ -6,7 +6,16 @@
 <head>
     <title>Urbanic Free Website Template</title>
     <meta name="keywords" content="" />
+     <meta http-equiv="Expires" content="0" /> 
+        <meta http-equiv="Pragma" content="no-cache" />
+
+        <script type="text/javascript">
+          if(history.forward(1)){
+            location.replace( history.forward(1) );
+          }
+        </script>
     <meta name="description" content="" />
+
     <!--
 
 Urbanic Template
@@ -25,17 +34,28 @@ http://www.templatemo.com/tm-395-urbanic
     <link href="css/W3.css" rel='stylesheet' type='text/css'>
     <link href="css/templatemo_style.css" rel="stylesheet" />
     <!-- Custom styles for this template -->
-
+        <SCRIPT language="JavaScript">
+      function numbersonly(e)
+      {
+        var unicode=e.charCode? e.charCode : e.keyCode
+        if (unicode!=8 && unicode!=44)
+        {
+          if (unicode<48||unicode>57) //if not a number
+          { return false} //disable key press    
+        }  
+      }  
+</SCRIPT>
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
      <script language="vb" runat="server">
 
-        Protected Sub FancyBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+         Protected Sub FancyBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
-            FormsAuthentication.SignOut()
+             FormsAuthentication.SignOut()
 
-            Response.Redirect(Request.UrlReferrer.ToString())
+             Response.Redirect("WebForm1.aspx")
 
-        End Sub
+
+         End Sub
 
 
     </script>
@@ -65,7 +85,7 @@ http://www.templatemo.com/tm-395-urbanic
             
            
     <div class="w3-bar navbar navbar-default" role="navigation">
-                            <a href="#" class="w3-bar-item">
+                            <a href="index.aspx" class="w3-bar-item">
                             <img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
                             <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             
@@ -77,8 +97,7 @@ http://www.templatemo.com/tm-395-urbanic
                                     <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS NO FISCALIZADOS</a>
                                 </div>
                             </div>
-                            <input type="button"  onserverclick="FancyBtn_Click" runat="server" class="btn btn-default w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16" value="Cerrar SESION"/>
-                        </div>
+      <input type="button"  onserverclick="FancyBtn_Click" runat="server" class="btn btn-default w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16" value="Cerrar SESION"/>                        </div>
 
                        
                   
@@ -107,10 +126,10 @@ http://www.templatemo.com/tm-395-urbanic
                     <tr>
   
                         <td>
-                            <label>Codigo del Contribuyente</label>
-                            <asp:TextBox ID="codContri" runat="server" class="w3-input"
+                            <label>Codigo del Contribuyente</label> 
+                            <asp:TextBox ID="codContri" runat="server" class="w3-input" MaxLength="10"  onkeypress="return numbersonly(event);" 
                                 placeholder="Codigo del Contribuyente..."  ></asp:TextBox>
-                          
+                            
                             
                         </td>
                             <td>
@@ -167,7 +186,7 @@ http://www.templatemo.com/tm-395-urbanic
                         
                         <td>
                              <label>Distrito</label>
-                            <asp:DropDownList ID="idDistrito" class="w3-select w3-border" runat="server" placeholder="....."
+                            <asp:DropDownList ID="idDistrito" class="w3-select w3-border" runat="server" Width="150px" placeholder="....."
                                 maxlength="50"  DataSourceID="SqlDataSource1"
                                 DataTextField="descripcion" DataValueField="idDistrito">
                             </asp:DropDownList>
@@ -220,13 +239,9 @@ http://www.templatemo.com/tm-395-urbanic
                          
                         </td>
 
-                        <td>
-                              <asp:RequiredFieldValidator id="RequiredFieldValidator6" runat="server"
-                              ControlToValidate="descripcion_Condi"
-                              ErrorMessage="*"
-                              ForeColor="Red">
-                            </asp:RequiredFieldValidator>
-                        </td>
+                      <td>
+
+                      </td>
 
                     </tr>
                          
@@ -316,16 +331,10 @@ http://www.templatemo.com/tm-395-urbanic
                         
                         
                         </td>
-
                         <td>
-                             <asp:RequiredFieldValidator id="RequiredFieldValidator10" runat="server"
-                              ControlToValidate="Descripcion_Tipo"
-                              ErrorMessage="*"
-                              ForeColor="Red">
-                            </asp:RequiredFieldValidator>
-
 
                         </td>
+                      
 
                           <td>
                             <label>Fecha de Adq.</label>
@@ -358,7 +367,7 @@ http://www.templatemo.com/tm-395-urbanic
                         
                        <td>
                             <label>Area del Terreno</label>
-                            <asp:TextBox ID="Area_Terreno" class="w3-input" runat="server" placeholder="Área del terreno" MaxLength="50" ></asp:TextBox>
+                            <asp:TextBox ID="Area_Terreno" class="w3-input"  runat="server"  onkeypress="return numbersonly(event);"  placeholder="Área del terreno" MaxLength="50" ></asp:TextBox>
                             
                         </td>
 
@@ -379,15 +388,7 @@ http://www.templatemo.com/tm-395-urbanic
                                 placeholder="Observacion" MaxLength="50"></asp:TextBox>
                            
                         </td>
-                        <td>
-                                 <asp:RequiredFieldValidator id="RequiredFieldValidator13" runat="server"
-                              ControlToValidate="Observacion"
-                              ErrorMessage="*"
-                              ForeColor="Red">
-                            </asp:RequiredFieldValidator>
-
-
-                        </td>
+                       
 
 
                     </tr>
@@ -408,7 +409,7 @@ http://www.templatemo.com/tm-395-urbanic
 
 
                 <div class="form-group">
-                    <asp:Button ID="Button1" runat="server"
+                    <asp:Button ID="BTNANTERIOR" runat="server" OnClientClick="postback false;"
                         Text="Anterior" class="w3-button w3-blue-gray" Height="46px"
                         Width="115px" />
                     <asp:Button ID="btnAgregarPredio" runat="server"

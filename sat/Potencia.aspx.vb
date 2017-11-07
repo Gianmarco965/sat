@@ -31,7 +31,7 @@ Public Class Potencia
                 .ExecuteNonQuery()
             End With
 
-            lblmensaje.Text = "Grabo Correctamente, Clientes Agregado"
+
         Catch ex As Exception
             lblmensaje.Text = "Error" & ex.Message
         Finally
@@ -41,7 +41,7 @@ Public Class Potencia
 
 
             Response.Redirect("PropietarioVehiculo.aspx?idvehiculo=" + idvehiculo.ToString())
-            MsgBox(idvehiculo.ToString())
+
 
         End Try
 

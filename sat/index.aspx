@@ -28,6 +28,14 @@ http://www.templatemo.com/tm-395-urbanic
     <!-- Custom styles for this template -->
 
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
+    <meta http-equiv="Expires" content="0" /> 
+        <meta http-equiv="Pragma" content="no-cache" />
+
+        <script type="text/javascript">
+          if(history.forward(1)){
+            location.replace( history.forward(1) );
+          }
+        </script>
 
     <script language="vb" runat="server">
 
@@ -35,7 +43,7 @@ http://www.templatemo.com/tm-395-urbanic
 
             FormsAuthentication.SignOut()
 
-            Response.Redirect(Request.UrlReferrer.ToString())
+            Response.Redirect("WebForm1.aspx")
 
         End Sub
 

@@ -22,7 +22,14 @@ http://www.templatemo.com/tm-395-urbanic
     <link href="css/W3.css" rel='stylesheet' type='text/css'>
     <link href="css/templatemo_style.css" rel="stylesheet" />
     <!-- Custom styles for this template -->
+     <meta http-equiv="Expires" content="0" /> 
+        <meta http-equiv="Pragma" content="no-cache" />
 
+        <script type="text/javascript">
+          if(history.forward(1)){
+            location.replace( history.forward(1) );
+          }
+        </script>
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
 </head>
 
@@ -46,7 +53,7 @@ http://www.templatemo.com/tm-395-urbanic
             <!-- Static navbar -->
 
                 <div class="w3-bar navbar navbar-default" role="navigation">
-                            <a href="#" class="w3-bar-item">
+                            <a href="index.aspx" class="w3-bar-item">
                             <img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
                             <a href="#" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             

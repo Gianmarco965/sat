@@ -149,15 +149,6 @@ Partial Public Class Predio
     Protected WithEvents descripcion_Condi As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control RequiredFieldValidator6.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents RequiredFieldValidator6 As Global.System.Web.UI.WebControls.RequiredFieldValidator
-    
-    '''<summary>
     '''Control idEstado.
     '''</summary>
     '''<remarks>
@@ -248,15 +239,6 @@ Partial Public Class Predio
     Protected WithEvents Descripcion_Tipo As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control RequiredFieldValidator10.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents RequiredFieldValidator10 As Global.System.Web.UI.WebControls.RequiredFieldValidator
-    
-    '''<summary>
     '''Control fecha.
     '''</summary>
     '''<remarks>
@@ -302,22 +284,13 @@ Partial Public Class Predio
     Protected WithEvents Observacion As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control RequiredFieldValidator13.
+    '''Control BTNANTERIOR.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents RequiredFieldValidator13 As Global.System.Web.UI.WebControls.RequiredFieldValidator
-    
-    '''<summary>
-    '''Control Button1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents BTNANTERIOR As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
     '''Control btnAgregarPredio.

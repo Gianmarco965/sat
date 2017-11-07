@@ -19,7 +19,7 @@ Public Class Representante
             rs.Fill(table)
 
             codpredio.Text = table.Rows(0)(0).ToString()
-            MsgBox("EL PREDIO SE ENCUENTRA REGISTRADO")
+
             xcon.Close()
         Catch ex As Exception
             MsgBox(ex.Message)

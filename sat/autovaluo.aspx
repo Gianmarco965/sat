@@ -7,13 +7,15 @@
     <title>Urbanic Free Website Template</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <!--
+    <meta http-equiv="Expires" content="0" /> 
+    <meta http-equiv="Pragma" content="no-cache" />
 
-Urbanic Template
+    <script type="text/javascript">
+      if(history.forward(1)){
+        location.replace( history.forward(1) );
+      }
+    </script>
 
-http://www.templatemo.com/tm-395-urbanic
-
--->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<link rel="shortcut icon" href="PUT YOUR FAVICON HERE">-->
@@ -128,7 +130,7 @@ http://www.templatemo.com/tm-395-urbanic
        
                         <td class="auto-style5">
                             <label>Codigo del Contribuyente</label>
-                            <asp:TextBox class="w3-input" ID="predio" runat="server"
+                            <asp:TextBox class="w3-input" ID="predio" runat="server" ReadOnly="true"
                                 placeholder="Codigo del Contribuyente..." MaxLength="50" ></asp:TextBox>
                            
 

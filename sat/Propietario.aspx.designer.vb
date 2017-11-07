@@ -176,15 +176,6 @@ Partial Public Class Propietario
     Protected WithEvents Referencia As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
-    '''Control RequiredFieldValidator4.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents RequiredFieldValidator4 As Global.System.Web.UI.WebControls.RequiredFieldValidator
-    
-    '''<summary>
     '''Control cel.
     '''</summary>
     '''<remarks>
@@ -255,15 +246,6 @@ Partial Public Class Propietario
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents descripcionP As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
-    '''Control RequiredFieldValidator13.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents RequiredFieldValidator13 As Global.System.Web.UI.WebControls.RequiredFieldValidator
     
     '''<summary>
     '''Control btnAgregarPredio.

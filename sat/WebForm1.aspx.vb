@@ -27,14 +27,16 @@ Public Class WebForm1
 
 
                 Me.ClearChildState()
-            Else
-
-                FormsAuthentication.RedirectFromLoginPage(TextBox1.Text, True, "index.aspx")
-                Response.Redirect("index.aspx")
-                Me.ClearChildState()
             End If
 
-        End If
+            If Autenticar(TextBox1.Text, password.Text, idTrabajador.SelectedIndex + 1).a = 2 Then
+
+                    FormsAuthentication.RedirectFromLoginPage(TextBox1.Text, True, "index.aspx")
+                    Response.Redirect("index.aspx")
+                    Me.ClearChildState()
+                End If
+
+            End If
 
 
 

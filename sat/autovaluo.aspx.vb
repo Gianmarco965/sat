@@ -102,7 +102,7 @@ Public Class autovaluo
             Dim table As New DataTable
             rs.Fill(table)
 
-            MsgBox("EL PREDIO SE ENCUENTRA REGISTRADO")
+
             xcon.Close()
         Catch ex As Exception
             MsgBox(ex.Message)

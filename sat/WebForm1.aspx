@@ -7,6 +7,15 @@
         <title>Urbanic Free Website Template</title>
         <meta name="keywords" content="" />
 		<meta name="description" content="" />
+    <meta http-equiv="Expires" content="0" /> 
+<meta http-equiv="Pragma" content="no-cache" />
+
+<script type="text/javascript">
+  if(history.forward(1)){
+    location.replace( history.forward(1) );
+  }
+</script>
+
 <!--
 
 Urbanic Template

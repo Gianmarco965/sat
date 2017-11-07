@@ -19,7 +19,7 @@ Public Class Propietario
             rs.Fill(table)
 
             idpredio = table.Rows(0)(0).ToString()
-            MsgBox("EL PREDIO SE ENCUENTRA REGISTRADO")
+
             xcon.Close()
         Catch ex As Exception
             MsgBox(ex.Message)

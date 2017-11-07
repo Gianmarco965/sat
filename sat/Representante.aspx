@@ -25,7 +25,14 @@ http://www.templatemo.com/tm-395-urbanic
     <link href="css/W3.css" rel='stylesheet' type='text/css'>
     <link href="css/templatemo_style.css" rel="stylesheet" />
     <!-- Custom styles for this template -->
+     <meta http-equiv="Expires" content="0" /> 
+        <meta http-equiv="Pragma" content="no-cache" />
 
+        <script type="text/javascript">
+          if(history.forward(1)){
+            location.replace( history.forward(1) );
+          }
+        </script>
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
 
     <script language="vb" runat="server">
@@ -113,7 +120,7 @@ http://www.templatemo.com/tm-395-urbanic
                                     <tr>                             
                                         <td>
                                             <label>Codigo del Contribuyente</label>
-                                            <asp:TextBox ID="predio" runat="server" class="w3-input"
+                                            <asp:TextBox ID="predio" runat="server" class="w3-input" ReadOnly="true"
                                                 placeholder="Codigo del Contribuyente..." MaxLength="50" ></asp:TextBox>
                                            </td>
                                           <td>

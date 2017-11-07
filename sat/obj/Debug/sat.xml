@@ -126,6 +126,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.autovaluo._RequiredFieldValidator11">
+<summary>
+Control RequiredFieldValidator11.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.autovaluo._ImageButton1">
 <summary>
 Control ImageButton1.
@@ -144,9 +153,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.autovaluo._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.autovaluo._ambiente">
 <summary>
 Control ambiente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.autovaluo._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -162,6 +189,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.autovaluo._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.autovaluo._idTippo_material">
 <summary>
 Control idTippo_material.
@@ -171,9 +207,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.autovaluo._RequiredFieldValidator4">
+<summary>
+Control RequiredFieldValidator4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.autovaluo._area">
 <summary>
 Control area.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.autovaluo._RequiredFieldValidator5">
+<summary>
+Control RequiredFieldValidator5.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -342,9 +396,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Potencia._RequiredFieldValidator5">
+<summary>
+Control RequiredFieldValidator5.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Potencia._txtaltura">
 <summary>
 Control txtaltura.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Potencia._RequiredFieldValidator4">
+<summary>
+Control RequiredFieldValidator4.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -360,9 +432,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Potencia._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Potencia._txtcilindro">
 <summary>
 Control txtcilindro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Potencia._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -378,9 +468,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Potencia._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Potencia._txtpneto">
 <summary>
 Control txtpneto.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Potencia._RequiredFieldValidator16">
+<summary>
+Control RequiredFieldValidator16.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -432,6 +540,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Predio._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Predio._ImageButton1">
 <summary>
 Control ImageButton1.
@@ -450,9 +567,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Predio._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Predio._referencia_p">
 <summary>
 Control referencia_p.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Predio._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -477,6 +612,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Predio._RequiredFieldValidator4">
+<summary>
+Control RequiredFieldValidator4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Predio._idCondicion">
 <summary>
 Control idCondicion.
@@ -489,6 +633,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.Predio._SqlDataSource2">
 <summary>
 Control SqlDataSource2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Predio._RequiredFieldValidator5">
+<summary>
+Control RequiredFieldValidator5.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -522,6 +675,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Predio._RequiredFieldValidator7">
+<summary>
+Control RequiredFieldValidator7.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Predio._idUso_predio">
 <summary>
 Control idUso_predio.
@@ -534,6 +696,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.Predio._SqlDataSource4">
 <summary>
 Control SqlDataSource4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Predio._RequiredFieldValidator8">
+<summary>
+Control RequiredFieldValidator8.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -558,6 +729,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Predio._RequiredFieldValidator9">
+<summary>
+Control RequiredFieldValidator9.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Predio._Descripcion_Tipo">
 <summary>
 Control Descripcion_Tipo.
@@ -576,9 +756,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Predio._RequiredFieldValidator11">
+<summary>
+Control RequiredFieldValidator11.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Predio._Area_Terreno">
 <summary>
 Control Area_Terreno.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Predio._RequiredFieldValidator12">
+<summary>
+Control RequiredFieldValidator12.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -594,9 +792,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:sat.Predio._Button1">
+<member name="F:sat.Predio._BTNANTERIOR">
 <summary>
-Control Button1.
+Control BTNANTERIOR.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -657,9 +855,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Propietario._RequiredFieldValidator11">
+<summary>
+Control RequiredFieldValidator11.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Propietario._nombew">
 <summary>
 Control nombew.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Propietario._RequiredFieldValidator10">
+<summary>
+Control RequiredFieldValidator10.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -675,6 +891,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Propietario._RequiredFieldValidator9">
+<summary>
+Control RequiredFieldValidator9.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Propietario._ApellidoM">
 <summary>
 Control ApellidoM.
@@ -684,9 +909,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Propietario._RequiredFieldValidator8">
+<summary>
+Control RequiredFieldValidator8.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Propietario._dni">
 <summary>
 Control dni.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Propietario._RequiredFieldValidator7">
+<summary>
+Control RequiredFieldValidator7.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -711,9 +954,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Propietario._RequiredFieldValidator6">
+<summary>
+Control RequiredFieldValidator6.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Propietario._Direccion">
 <summary>
 Control Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Propietario._RequiredFieldValidator5">
+<summary>
+Control RequiredFieldValidator5.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -738,9 +999,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Propietario._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Propietario._correo">
 <summary>
 Control correo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Propietario._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -759,6 +1038,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.Propietario._SqlDataSource2">
 <summary>
 Control SqlDataSource2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Propietario._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -810,9 +1098,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.PropietarioVehiculo._RequiredFieldValidator16">
+<summary>
+Control RequiredFieldValidator16.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.PropietarioVehiculo._ApellidoP">
 <summary>
 Control ApellidoP.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -828,9 +1134,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.PropietarioVehiculo._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.PropietarioVehiculo._dni">
 <summary>
 Control dni.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -855,9 +1179,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.PropietarioVehiculo._RequiredFieldValidator12">
+<summary>
+Control RequiredFieldValidator12.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.PropietarioVehiculo._Direccion">
 <summary>
 Control Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._RequiredFieldValidator4">
+<summary>
+Control RequiredFieldValidator4.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -873,6 +1215,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.PropietarioVehiculo._RequiredFieldValidator5">
+<summary>
+Control RequiredFieldValidator5.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.PropietarioVehiculo._cel">
 <summary>
 Control cel.
@@ -882,9 +1233,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.PropietarioVehiculo._RequiredFieldValidator6">
+<summary>
+Control RequiredFieldValidator6.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.PropietarioVehiculo._correo">
 <summary>
 Control correo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._RequiredFieldValidator7">
+<summary>
+Control RequiredFieldValidator7.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -909,9 +1278,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.PropietarioVehiculo._RequiredFieldValidator8">
+<summary>
+Control RequiredFieldValidator8.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.PropietarioVehiculo._descripcionP">
 <summary>
 Control descripcionP.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.PropietarioVehiculo._RequiredFieldValidator9">
+<summary>
+Control RequiredFieldValidator9.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -963,6 +1350,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Representante._RequiredFieldValidator5">
+<summary>
+Control RequiredFieldValidator5.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Representante._ImageButton1">
 <summary>
 Control ImageButton1.
@@ -981,6 +1377,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Representante._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Representante._txtapellido">
 <summary>
 Control txtapellido.
@@ -990,9 +1395,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Representante._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Representante._txtdni">
 <summary>
 Control txtdni.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Representante._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1017,6 +1440,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Representante._RequiredFieldValidator4">
+<summary>
+Control RequiredFieldValidator4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Representante._btnregistrar">
 <summary>
 Control btnregistrar.
@@ -1029,6 +1461,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.Representante._codpredio">
 <summary>
 Control codpredio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Representante._RequiredFieldValidator6">
+<summary>
+Control RequiredFieldValidator6.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1053,6 +1494,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.RepresentanteVehiculo._RequiredFieldValidator12">
+<summary>
+Control RequiredFieldValidator12.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.RepresentanteVehiculo._txtapellido">
 <summary>
 Control txtapellido.
@@ -1062,9 +1512,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.RepresentanteVehiculo._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.RepresentanteVehiculo._txtdni">
 <summary>
 Control txtdni.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.RepresentanteVehiculo._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1089,6 +1557,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.RepresentanteVehiculo._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.RepresentanteVehiculo._btnregistrar">
 <summary>
 Control btnregistrar.
@@ -1101,6 +1578,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.RepresentanteVehiculo._codpredio">
 <summary>
 Control codpredio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.RepresentanteVehiculo._RequiredFieldValidator4">
+<summary>
+Control RequiredFieldValidator4.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1179,9 +1665,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Vehicular._RequiredFieldValidator6">
+<summary>
+Control RequiredFieldValidator6.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Vehicular._txtplacanueva">
 <summary>
 Control txtplacanueva.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Vehicular._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1197,6 +1701,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Vehicular._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Vehicular._txtpartidareg">
 <summary>
 Control txtpartidareg.
@@ -1206,9 +1719,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Vehicular._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Vehicular._txttitulo">
 <summary>
 Control txttitulo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Vehicular._RequiredFieldValidator4">
+<summary>
+Control RequiredFieldValidator4.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1233,6 +1764,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Vehicular._RequiredFieldValidator5">
+<summary>
+Control RequiredFieldValidator5.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Vehicular._idmarca">
 <summary>
 Control idmarca.
@@ -1245,6 +1785,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:sat.Vehicular._SqlDataSource2">
 <summary>
 Control SqlDataSource2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Vehicular._RequiredFieldValidator7">
+<summary>
+Control RequiredFieldValidator7.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1269,9 +1818,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Vehicular._RequiredFieldValidator8">
+<summary>
+Control RequiredFieldValidator8.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Vehicular._txtserie">
 <summary>
 Control txtserie.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Vehicular._RequiredFieldValidator9">
+<summary>
+Control RequiredFieldValidator9.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1287,6 +1854,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Vehicular._RequiredFieldValidator10">
+<summary>
+Control RequiredFieldValidator10.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Vehicular._txtcolor">
 <summary>
 Control txtcolor.
@@ -1296,9 +1872,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Vehicular._RequiredFieldValidator11">
+<summary>
+Control RequiredFieldValidator11.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Vehicular._txtcarroceria">
 <summary>
 Control txtcarroceria.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Vehicular._RequiredFieldValidator12">
+<summary>
+Control RequiredFieldValidator12.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1323,9 +1917,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Vehicular._RequiredFieldValidator13">
+<summary>
+Control RequiredFieldValidator13.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Vehicular._txtanofab">
 <summary>
 Control txtanofab.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Vehicular._RequiredFieldValidator14">
+<summary>
+Control RequiredFieldValidator14.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1341,9 +1953,27 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:sat.Vehicular._RequiredFieldValidator15">
+<summary>
+Control RequiredFieldValidator15.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:sat.Vehicular._txtfechafab">
 <summary>
 Control txtfechafab.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:sat.Vehicular._RequiredFieldValidator16">
+<summary>
+Control RequiredFieldValidator16.
 </summary>
 <remarks>
 Campo generado automáticamente.

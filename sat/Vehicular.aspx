@@ -25,7 +25,14 @@ http://www.templatemo.com/tm-395-urbanic
     <link href="css/W3.css" rel='stylesheet' type='text/css'>
     <link href="css/templatemo_style.css" rel="stylesheet" />
     <!-- Custom styles for this template -->
+     <meta http-equiv="Expires" content="0" /> 
+        <meta http-equiv="Pragma" content="no-cache" />
 
+        <script type="text/javascript">
+          if(history.forward(1)){
+            location.replace( history.forward(1) );
+          }
+        </script>
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
      <script language="vb" runat="server">
 
@@ -33,7 +40,7 @@ http://www.templatemo.com/tm-395-urbanic
 
             FormsAuthentication.SignOut()
 
-            Response.Redirect(Request.UrlReferrer.ToString())
+            Response.Redirect("WebForm1.aspx")
 
         End Sub
 
@@ -66,7 +73,7 @@ http://www.templatemo.com/tm-395-urbanic
            
 
                         <div class="w3-bar navbar navbar-default" role="navigation">
-                            <a href="#" class="w3-bar-item">
+                            <a href="index.aspx" class="w3-bar-item">
                             <img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
                             <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             
@@ -142,7 +149,7 @@ http://www.templatemo.com/tm-395-urbanic
                       
                         <td>
                             <label>Placa Anterior</label>
-                            <asp:TextBox ID="txtplacaanterior" runat="server" class="w3-input"
+                            <asp:TextBox ID="txtplacaanterior" runat="server" class="w3-input" 
                                 placeholder="Placa Anterior..." MaxLength="50" 
                                 ></asp:TextBox>
                         </td>
@@ -220,7 +227,7 @@ http://www.templatemo.com/tm-395-urbanic
                          <td>
                             <label>Marca</label>
                             <asp:DropDownList ID="idmarca" runat="server" class="w3-input" placeholder="....."
-                                maxlength="50" Width="170px" DataSourceID="SqlDataSource2"
+                                maxlength="50" Width="170px" DataSourceID="SqlDataSource2" AutoPostBack="True"  
                                 DataTextField="descripcion" DataValueField="idmarca">
                             </asp:DropDownList>
                             <asp:SqlDataSource ID="SqlDataSource2" runat="server"
@@ -246,10 +253,10 @@ http://www.templatemo.com/tm-395-urbanic
                             </asp:DropDownList>
                             <asp:SqlDataSource ID="SqlDataSource3" runat="server"
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
-                                SelectCommand="SELECT [idmodelo], [descripcion] FROM [Modelo_Vehiculo] WHERE ([idmarca] = @idmarca)">
+                                SelectCommand="SELECT [idmodelo], [descripcion] FROM [Modelo_Vehiculo] WHERE ([idmarca] = @parametroidmarca)">
                                 <SelectParameters>
-                                    <asp:ControlParameter ControlID="idmarca" Name="idmarca"
-                                        PropertyName="SelectedValue" Type="Int32" />
+                                    <asp:ControlParameter ControlID="idmarca" Name="parametroidmarca"
+                                        PropertyName="SelectedValue" Type="Int32"  />
                                 </SelectParameters>
                             </asp:SqlDataSource>
                         </td>
@@ -430,7 +437,7 @@ http://www.templatemo.com/tm-395-urbanic
 
                 <div class="form-group">
                     <asp:Button ID="Button1" runat="server"
-                        Text="Anterior" class="w3-button w3-gray" BackColor="Blue" Height="46px"
+                        Text="Anterior" class="w3-button w3-gray" BackColor="Blue" Height="46px" OnClientClick="postback false;"
                         Width="115px" />
                     <asp:Button ID="btnAgregarVehiculo" runat="server"
                         Text="Registrar" class="w3-button w3-blue" BackColor="Blue" Height="46px"

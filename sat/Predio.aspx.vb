@@ -15,37 +15,65 @@ Public Class Predio
 
     Protected Sub btnAgregarPredio_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnAgregarPredio.Click
         Dim a As String = codContri.Text
-        Try
-            xcon.Open()
-            Dim xcmd As New SqlCommand("Insertar_Predio", xcon)
-            xcmd.CommandType = CommandType.StoredProcedure
-
-            With xcmd
-                .Parameters.AddWithValue("cod_contri", codContri.Text)
-                .Parameters.AddWithValue("idDistrito", idDistrito.SelectedIndex + 1)
-                .Parameters.AddWithValue("ubicacion_P", ubicacion_P.Text)
-                .Parameters.AddWithValue("referencia_P", referencia_p.Text)
-                .Parameters.AddWithValue("idCondicion_P", idCondicion.Text + 1)
-                .Parameters.AddWithValue("descripcion_Condicion", descripcion_Condi.Text)
-                .Parameters.AddWithValue("idEstado", idEstado.SelectedIndex + 1)
-                .Parameters.AddWithValue("idUso_Predio", idUso_predio.SelectedIndex + 1)
-                .Parameters.AddWithValue("idTipo", idTipo.SelectedIndex + 1)
-                .Parameters.AddWithValue("descripcion_TipoP", Descripcion_Tipo.Text)
-                .Parameters.AddWithValue("fecha_adq", fecha.Text)
-                .Parameters.AddWithValue("area_Terreno", Area_Terreno.Text)
-                .Parameters.AddWithValue("observacion", Area_Terreno.Text)
-                .ExecuteNonQuery()
-
-
-            End With
-            MsgBox("Grabo Correctamente, Predio Agregado")
-        Catch ex As Exception
-            lblmensaje.Text = "Error" & ex.Message
-        Finally
-            Response.Redirect("Propietario.aspx?a=" + a)
+        Dim existe As Integer
+        xcon.Open()
+        Dim xcmd As New SqlCommand("sp_existe_predio", xcon)
+        xcmd.CommandType = CommandType.StoredProcedure
+        With xcmd
+            .Parameters.AddWithValue("codcontri", a)
+            .Parameters.Add("@new_identity", SqlDbType.Int)
+            .Parameters("@new_identity").Direction = ParameterDirection.Output
+            .ExecuteNonQuery()
+            existe = xcmd.Parameters("@new_identity").Value
             xcon.Close()
+        End With
+        If (existe = 0) Then
 
-        End Try
+            Try
+                xcon.Open()
+                xcmd = New SqlCommand("Insertar_Predio", xcon)
+                xcmd.CommandType = CommandType.StoredProcedure
+
+                With xcmd
+                    .Parameters.AddWithValue("cod_contri", codContri.Text)
+                    .Parameters.AddWithValue("idDistrito", idDistrito.SelectedIndex + 1)
+                    .Parameters.AddWithValue("ubicacion_P", ubicacion_P.Text)
+                    .Parameters.AddWithValue("referencia_P", referencia_p.Text)
+                    .Parameters.AddWithValue("idCondicion_P", idCondicion.Text + 1)
+                    .Parameters.AddWithValue("descripcion_Condicion", descripcion_Condi.Text)
+                    .Parameters.AddWithValue("idEstado", idEstado.SelectedIndex + 1)
+                    .Parameters.AddWithValue("idUso_Predio", idUso_predio.SelectedIndex + 1)
+                    .Parameters.AddWithValue("idTipo", idTipo.SelectedIndex + 1)
+                    .Parameters.AddWithValue("descripcion_TipoP", Descripcion_Tipo.Text)
+                    .Parameters.AddWithValue("fecha_adq", fecha.Text)
+                    .Parameters.AddWithValue("area_Terreno", Area_Terreno.Text)
+                    .Parameters.AddWithValue("observacion", Area_Terreno.Text)
+                    .ExecuteNonQuery()
+
+
+                End With
+
+            Catch ex As Exception
+                lblmensaje.Text = "Error" & ex.Message
+            Finally
+                Response.Redirect("Propietario.aspx?a=" + a)
+                xcon.Close()
+
+            End Try
+
+
+        ElseIf (existe = 1) Then
+            MsgBox("Ingresar un Codigo del Contribuyente Distinto")
+
+        End If
+
+
+
+
+
+
+
+
 
     End Sub
 
@@ -58,9 +86,9 @@ Public Class Predio
             xcon.Open()
             Dim xcmd As New SqlCommand("buscarCcontri", xcon)
             xcmd.CommandType = CommandType.StoredProcedure
-            xcmd.Parameters.Add("cod_contri", codContri.Text)
+            xcmd.Parameters.AddWithValue("cod_contri", codContri.Text)
             xcmd.ExecuteNonQuery()
-            MsgBox("PREDIO REGISTRADO")
+            MsgBox("OPERACION REALIZADA CON EXITO")
 
         Catch ex As Exception
 
@@ -77,8 +105,9 @@ Public Class Predio
 
     End Sub
 
-    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Response.Redirect("index.aspx")
 
+
+    Protected Sub BTNANTERIOR_Click(sender As Object, e As EventArgs) Handles BTNANTERIOR.Click
+        Response.Redirect("index.aspx")
     End Sub
 End Class

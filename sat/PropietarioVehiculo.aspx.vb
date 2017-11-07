@@ -11,7 +11,7 @@ Public Class PropietarioVehiculo
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         idvehiculo = Integer.Parse(Request.QueryString("idvehiculo"))
-        MsgBox(idvehiculo.ToString())
+
     End Sub
 
     Protected Sub btnAgregarPredio_Click(sender As Object, e As EventArgs) Handles btnAgregarPredio.Click

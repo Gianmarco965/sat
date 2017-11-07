@@ -25,7 +25,14 @@ http://www.templatemo.com/tm-395-urbanic
     <link href="css/W3.css" rel='stylesheet' type='text/css'>
     <link href="css/templatemo_style.css" rel="stylesheet" />
     <!-- Custom styles for this template -->
+     <meta http-equiv="Expires" content="0" /> 
+        <meta http-equiv="Pragma" content="no-cache" />
 
+        <script type="text/javascript">
+          if(history.forward(1)){
+            location.replace( history.forward(1) );
+          }
+        </script>
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
      <script language="vb" runat="server">
 
@@ -39,7 +46,17 @@ http://www.templatemo.com/tm-395-urbanic
 
 
     </script>
-
+    <SCRIPT language="JavaScript">
+      function numbersonly(e)
+      {
+        var unicode=e.charCode? e.charCode : e.keyCode
+        if (unicode!=8 && unicode!=44)
+        {
+          if (unicode<48||unicode>57) //if not a number
+          { return false} //disable key press    
+        }  
+      }  
+</SCRIPT>
 
 
 </head>
@@ -108,7 +125,7 @@ http://www.templatemo.com/tm-395-urbanic
                       
                         <td>
                             <label>Longitud</label>
-                            <asp:TextBox ID="txtlongitud" runat="server"  class="w3-input"
+                            <asp:TextBox ID="txtlongitud" runat="server"  class="w3-input"  onkeypress="return numbersonly(event);"
                                   placeholder="Longitud..." maxlength="50" ></asp:TextBox>
                         </td>
                           <td>
@@ -124,7 +141,7 @@ http://www.templatemo.com/tm-395-urbanic
                        
                         <td>
                             <label>Altura</label>
-                            <asp:TextBox ID="txtaltura" runat="server"   class="w3-input"
+                            <asp:TextBox ID="txtaltura" runat="server"   class="w3-input"  onkeypress="return numbersonly(event);"
                                 placeholder="Altura..." maxlength="50" Width="170px" 
                                 ></asp:TextBox> 
                         </td>
@@ -140,7 +157,7 @@ http://www.templatemo.com/tm-395-urbanic
                       
                         <td>
                             <label>Ancho</label>
-                            <asp:TextBox ID="txtancho" runat="server"   class="w3-input"
+                            <asp:TextBox ID="txtancho" runat="server"   class="w3-input"  onkeypress="return numbersonly(event);"
                                 placeholder="Ancho..." maxlength="50" 
                                 ></asp:TextBox> 
                         </td>
@@ -159,7 +176,7 @@ http://www.templatemo.com/tm-395-urbanic
                        
                         <td>
                             <label>Cilindro</label>
-                            <asp:TextBox ID="txtcilindro" runat="server"  class="w3-input"
+                            <asp:TextBox ID="txtcilindro" runat="server"  class="w3-input"  onkeypress="return numbersonly(event);"
                                 placeholder="Cilindro..." maxlength="50" Width="170px" 
                                 ></asp:TextBox> 
                         </td>
@@ -176,7 +193,7 @@ http://www.templatemo.com/tm-395-urbanic
                        
                         <td>
                             <label>Peso bruto</label>
-                            <asp:TextBox ID="txtpbruto" runat="server" class="w3-input" placeholder="Peso Bruto....." maxlength="50" Width="170px"></asp:TextBox>
+                            <asp:TextBox ID="txtpbruto" runat="server" class="w3-input"  onkeypress="return numbersonly(event);"  placeholder="Peso Bruto....." maxlength="50" Width="170px"></asp:TextBox>
                         </td>
                            <td>
                                             <asp:RequiredFieldValidator id="RequiredFieldValidator1" runat="server"
@@ -190,7 +207,7 @@ http://www.templatemo.com/tm-395-urbanic
                      
                         <td>
                             <label>Peso Neto</label>
-                            <asp:TextBox ID="txtpneto" class="w3-input" runat="server" placeholder="Peso neto " maxlength="50" Width="170px"></asp:TextBox>
+                            <asp:TextBox ID="txtpneto" class="w3-input" runat="server"  onkeypress="return numbersonly(event);"  placeholder="Peso neto " maxlength="50" Width="170px"></asp:TextBox>
                         </td>
                          <td>
                                             <asp:RequiredFieldValidator id="RequiredFieldValidator16" runat="server"

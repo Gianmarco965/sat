@@ -6,7 +6,9 @@
             Response.Write("Bienvenido : " + User.Identity.Name)
 
         End If
+        Response.Cache.SetCacheability(HttpCacheability.NoCache)
 
+        Response.Cache.SetExpires(DateTime.Now)
 
 
     End Sub

@@ -27,7 +27,14 @@ http://www.templatemo.com/tm-395-urbanic
     <!-- Custom styles for this template -->
 
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
+     <meta http-equiv="Expires" content="0" /> 
+        <meta http-equiv="Pragma" content="no-cache" />
 
+        <script type="text/javascript">
+          if(history.forward(1)){
+            location.replace( history.forward(1) );
+          }
+        </script>
      <script language="vb" runat="server">
 
         Protected Sub FancyBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -243,15 +250,7 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:TextBox ID="Referencia" runat="server" class="w3-input"
                                 placeholder="Referencia..." MaxLength="50"  ></asp:TextBox>
                         </td>
-                         <td>
-                                 <asp:RequiredFieldValidator id="RequiredFieldValidator4" runat="server"
-                              ControlToValidate="Referencia"
-                              ErrorMessage="*"
-                              ForeColor="Red">
-                            </asp:RequiredFieldValidator>
-
-
-                        </td>
+                       <td></td>
 
 
                         <td>
@@ -315,15 +314,7 @@ http://www.templatemo.com/tm-395-urbanic
                             <asp:TextBox class="w3-input" ID="descripcionP" runat="server" placeholder="Descripcion del Domicilio...." MaxLength="50" ></asp:TextBox>
                         </td>
 
-                          <td>
-                                 <asp:RequiredFieldValidator id="RequiredFieldValidator13" runat="server"
-                              ControlToValidate="descripcionP"
-                              ErrorMessage="*"
-                              ForeColor="Red">
-                            </asp:RequiredFieldValidator>
-
-
-                        </td>
+                         
 
                     </tr>
                     </div>

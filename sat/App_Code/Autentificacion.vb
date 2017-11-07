@@ -43,7 +43,7 @@ Public Class Autentificacion
             Catch ex As Exception
                 datos.misdatos(False, a, idpersona)
 
-                MsgBox("Datos incorrectos")
+
             Finally
                 datos.misdatos(True, a, idpersona)
 
