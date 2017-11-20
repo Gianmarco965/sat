@@ -1,16 +1,14 @@
 ﻿Imports System.Data.SqlClient
-
-Public Class PrediosAsignados
+Public Class PredioFiscalizado
     Inherits System.Web.UI.Page
     Dim xcon As New SqlConnection("Data Source=.;Initial Catalog=sat;Integrated Security=True")
     Dim dt As DataTable
     Dim idfiscalizador As Integer
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+
         idfiscalizador = Request.QueryString("idfiscalizador")
 
-
         cargar(idfiscalizador)
-
     End Sub
     Private Sub cargar(idfiscalizador As Integer)
 
@@ -42,11 +40,7 @@ Public Class PrediosAsignados
 
                 html.Append("<tr class='w3-hover-green'>")
                 For Each column As DataColumn In dt.Columns
-                    If dt.Columns.Count - 1 = column.Ordinal Then
-                        html.Append("<td>")
-                        html.Append("<a href='FiscalizarPredio.aspx?idpredio=" + row("idpredio").ToString() + "'>Fiscalizar</a>")
-                        html.Append("</td>")
-                    End If
+
                     html.Append("<td>")
                     html.Append(row(column.ColumnName))
                     html.Append("</td>")
@@ -74,7 +68,7 @@ Public Class PrediosAsignados
         Dim con As New SqlConnection(constr)
         Dim cmd As New SqlCommand()
         cmd.Connection = con
-        cmd.CommandText = "sp_select_predio_x_fiscalizador"
+        cmd.CommandText = "sp_predio_fiscalizado"
         cmd.CommandType = CommandType.StoredProcedure
         cmd.Parameters.AddWithValue("@idfiscalizador", SqlDbType.Int).Value = idfiscalizador
         Dim sda As New SqlDataAdapter(cmd)
@@ -86,8 +80,6 @@ Public Class PrediosAsignados
 
 
     End Function
-
-
 
 
 End Class

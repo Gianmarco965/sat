@@ -62,6 +62,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -116,6 +119,7 @@
     <Content Include="css\W3.css" />
     <Content Include="EditarPredio.aspx" />
     <Content Include="Fiscalizador.aspx" />
+    <Content Include="FiscalizarPredio.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\atemo_logo.png" />
     <Content Include="images\backgr.png" />
@@ -201,10 +205,12 @@
     <Content Include="js\templatemo_script.js" />
     <Content Include="Potencia.aspx" />
     <Content Include="Predio.aspx" />
+    <Content Include="PredioFiscalizado.aspx" />
     <Content Include="PrediosAsignados.aspx" />
     <Content Include="Propietario.aspx" />
     <Content Include="PropietarioVehiculo.aspx" />
     <Content Include="RegistroyPlanificacion.aspx" />
+    <Content Include="ReportePredio.aspx" />
     <Content Include="Representante.aspx" />
     <Content Include="RepresentanteVehiculo.aspx" />
     <Content Include="Styles\Site.css" />
@@ -268,6 +274,12 @@
       <DependentUpon>autovaluo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="CRPredio.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPredio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="EditarPredio.aspx.designer.vb">
       <DependentUpon>EditarPredio.aspx</DependentUpon>
     </Compile>
@@ -280,6 +292,13 @@
     </Compile>
     <Compile Include="Fiscalizador.aspx.vb">
       <DependentUpon>Fiscalizador.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FiscalizarPredio.aspx.designer.vb">
+      <DependentUpon>FiscalizarPredio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FiscalizarPredio.aspx.vb">
+      <DependentUpon>FiscalizarPredio.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="index.aspx.vb">
@@ -325,6 +344,13 @@
       <DependentUpon>Predio.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="PredioFiscalizado.aspx.designer.vb">
+      <DependentUpon>PredioFiscalizado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PredioFiscalizado.aspx.vb">
+      <DependentUpon>PredioFiscalizado.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="PrediosAsignados.aspx.designer.vb">
       <DependentUpon>PrediosAsignados.aspx</DependentUpon>
     </Compile>
@@ -351,6 +377,13 @@
     </Compile>
     <Compile Include="RegistroyPlanificacion.aspx.vb">
       <DependentUpon>RegistroyPlanificacion.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReportePredio.aspx.designer.vb">
+      <DependentUpon>ReportePredio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportePredio.aspx.vb">
+      <DependentUpon>ReportePredio.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Representante.aspx.designer.vb">
@@ -397,6 +430,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CRPredio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPredio.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -427,6 +464,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

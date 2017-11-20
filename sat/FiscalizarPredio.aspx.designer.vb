@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class EditarPredio
+Partial Public Class FiscalizarPredio
     
     '''<summary>
     '''Control form1.
@@ -23,13 +23,13 @@ Partial Public Class EditarPredio
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
     
     '''<summary>
-    '''Control cbofiscalizador.
+    '''Control cbofiscalizar.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents cbofiscalizador As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents cbofiscalizar As Global.System.Web.UI.WebControls.DropDownList
     
     '''<summary>
     '''Control SqlDataSource6.

@@ -35,15 +35,20 @@ http://www.templatemo.com/tm-395-urbanic
 
             FormsAuthentication.SignOut()
 
-            Response.Redirect(Request.UrlReferrer.ToString())
+            Response.Redirect("WebForm1.aspx")
 
         End Sub
         Protected Sub PredioAsignado_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-            Response.Redirect("PrediosAsignados.aspx?" + idfiscalizador.ToString())
+            Response.Redirect("PrediosAsignados.aspx?idfiscalizador=" + idfiscalizador.ToString())
 
 
 
         End Sub
+        Protected Sub PredioFiscalizado_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+            Response.Redirect("PredioFiscalizado.aspx?idfiscalizador=" + idfiscalizador.ToString())
+
+        End Sub
+
 
     </script>
 
@@ -76,16 +81,9 @@ http://www.templatemo.com/tm-395-urbanic
                         <div class="w3-bar navbar navbar-default" role="navigation">
                             <a href="Fiscalizador.aspx" class="w3-bar-item">
                             <img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
-                            <a href="VerPredios.aspx" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
+
                             
-                            <div class="w3-dropdown-hover">
-                                <button class="w3-button w3-padding-16 w3-text-light-grey">REPORTES</button>
-                                <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                                    <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS</a>
-                                    <a href="#" class="w3-bar-item w3-button">REPORTE POR FECHAS</a>
-                                    <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS NO FISCALIZADOS</a>
-                                </div>
-                            </div>
+                         
                        
                              <input type="button"  onserverclick="FancyBtn_Click" runat="server" class="btn btn-default w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16" value="Cerrar SESION"/>
                      
@@ -137,11 +135,11 @@ http://www.templatemo.com/tm-395-urbanic
                         <td class="style5">
                             <div class="w3-card-4">
 
-                                <a href="http://localhost:1209/Vehicular.aspx">
+                                <a  onserverclick="PredioFiscalizado_Click" runat="server">
                                     <img alt="" class="style6" src="images/predial.jpg" />
                                 </a>
                                 <div class="w3-container w3-center w3-hover-blue">
-                                    <p><a href="http://localhost:1209/Vehicular.aspx">PREDIOS NO FISCALIZADOS</a></p>
+                                     <p><a onserverclick="PredioFiscalizado_Click" runat="server">PREDIOS FISCALIZADOS</a></p>
                                 </div>
                             </div>
                         </td>

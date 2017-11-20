@@ -43,7 +43,7 @@ Public Class VerPredios
                 For Each column As DataColumn In dt.Columns
                     If dt.Columns.Count - 1 = column.Ordinal Then
                         html.Append("<td>")
-                        html.Append("<a href='#'>Editar</a>")
+                        html.Append("<a href='EditarPredio.aspx?idpredio=" + row("idpredio").ToString() + "'>ASIGNAR</a>")
                         html.Append("</td>")
                     End If
                     html.Append("<td>")

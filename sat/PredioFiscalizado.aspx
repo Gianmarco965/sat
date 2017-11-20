@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="PrediosAsignados.aspx.vb" Inherits="sat.PrediosAsignados" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="PredioFiscalizado.aspx.vb" Inherits="sat.PredioFiscalizado" %>
 
 <!DOCTYPE html">
 <html>
@@ -76,7 +76,7 @@ http://www.templatemo.com/tm-395-urbanic
         <section>
 
 
-                <h2 style="color: #000000;">VER PREDIOS ASIGNADOS</h2>
+                <h2 style="color: #000000;">VER PREDIOS FISCALIZADOS</h2>
          
             <asp:PlaceHolder ID="PlaceHolder1" runat="server"></asp:PlaceHolder>
      
@@ -89,5 +89,4 @@ http://www.templatemo.com/tm-395-urbanic
     <script src="js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
     <script src="js/templatemo_script.js" type="text/javascript"></script>
     <!-- templatemo 395 urbanic -->
-</body>
-</html>
+</body></html>

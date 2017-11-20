@@ -1,9 +1,8 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="EditarPredio.aspx.vb" Inherits="sat.EditarPredio" %>
-
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="FiscalizarPredio.aspx.vb" Inherits="sat.FiscalizarPredio" %>
 <!DOCTYPE html">
 <html>
 <head>
-    <title>ASIGNAR FISCALIZADOR</title>
+    <title>FISCALIZAR PREDIO</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <!--
@@ -30,6 +29,20 @@ http://www.templatemo.com/tm-395-urbanic
             location.replace( history.forward(1) );
           }
         </script>
+     <script language="vb" runat="server">
+
+         Protected Sub FancyBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+             FormsAuthentication.SignOut()
+
+             Response.Redirect("WebForm1.aspx")
+
+
+         End Sub
+
+
+    </script>
+
     <link href="css/StyleSheet1.css" rel='stylesheet' type='text/css' />
 </head>
 
@@ -53,19 +66,11 @@ http://www.templatemo.com/tm-395-urbanic
             <!-- Static navbar -->
 
                 <div class="w3-bar navbar navbar-default" role="navigation">
-                            <a href="index.aspx" class="w3-bar-item">
+                            <a href="Fiscalizador.aspx" class="w3-bar-item">
                             <img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
-                            <a href="#" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
-                            
-                            <div class="w3-dropdown-hover">
-                                <button class="w3-button w3-padding-16 w3-text-light-grey">REPORTES</button>
-                                <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                                    <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS</a>
-                                    <a href="#" class="w3-bar-item w3-button">REPORTE POR FECHAS</a>
-                                    <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS NO FISCALIZADOS</a>
-                                </div>
-                            </div>
-                            <a href="#" class="w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16">CERRAR SESION</a>
+                    
+                         
+                          <input type="button"  onserverclick="FancyBtn_Click" runat="server" class="btn btn-default w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16" value="Cerrar SESION"/>                        
                         </div>
         <!-- /container -->
 
@@ -81,7 +86,7 @@ http://www.templatemo.com/tm-395-urbanic
 
             <form id="form1"  class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin"  runat="server">
                 
-            <h2 class="w3-center" style="color: #000000;">ASIGNAR FISCALIZADOR</h2>
+            <h2 class="w3-center" style="color: #000000;">FISCALIZAR PREDIO</h2>
                 <table >
                    
                 
@@ -90,21 +95,21 @@ http://www.templatemo.com/tm-395-urbanic
                         
                         <td></td>
                        <td>
-                            <label>Fiscalizador</label>
-                            <asp:DropDownList ID="cbofiscalizador" class="w3-select w3-border" runat="server" placeholder="....." maxlength="50"
-                                DataSourceID="SqlDataSource6" DataTextField="nombre"
-                                DataValueField="idusuario">
+                            <label>Estado Predio</label>
+                            <asp:DropDownList ID="cbofiscalizar" class="w3-select w3-border" runat="server" placeholder="....." maxlength="50"
+                                DataSourceID="SqlDataSource6" DataTextField="nombreestado"
+                                DataValueField="idestadopredio">
                             </asp:DropDownList>
                             <asp:SqlDataSource ID="SqlDataSource6" runat="server"
                                 ConnectionString="<%$ ConnectionStrings:satConnectionString %>"
-                                SelectCommand="SELECT nombre + ' '+apellidos as [nombre], [idusuario] FROM [usuario] where idtipo=1"></asp:SqlDataSource>
+                                SelectCommand="select [idestadopredio],[nombreestado] from EstadoPredio"></asp:SqlDataSource>
                       
                         </td>
 
                         <td>
                             
                             <asp:RequiredFieldValidator id="RequiredFieldValidator6" runat="server"
-                              ControlToValidate="cbofiscalizador"
+                              ControlToValidate="cbofiscalizar"
                               ErrorMessage="*"
                               ForeColor="Red">
                             </asp:RequiredFieldValidator>
@@ -129,7 +134,7 @@ http://www.templatemo.com/tm-395-urbanic
                         Text="Anterior" class="w3-button w3-blue-gray" Height="46px"
                         Width="115px" />
                     <asp:Button ID="btnAgregarPredio" runat="server"
-                        Text="AGREGAR FISCALIZADOR" class="w3-button w3-blue w3-right"  Height="46px"
+                        Text="ACEPTAR" class="w3-button w3-blue w3-right"  Height="46px"
                         Width="115px" />
                 </div>
 
