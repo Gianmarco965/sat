@@ -1,20 +1,40 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true"  CodeFile="Default.aspx.cs" Inherits="_Default" %>
- 
-<%@ Register Assembly="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304"
-    Namespace="CrystalDecisions.Web" TagPrefix="CR" %>
- 
+﻿<%@ Page Language="vb" AutoEventWireup="false"  %>
+<%@ Register assembly="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" namespace="CrystalDecisions.Web" tagprefix="CR" %>
 <!DOCTYPE html>
  
-<html xmlns="<a class="vglnk" href="http://www.w3.org/1999/xhtml" rel="nofollow"><span>http</span><span>://</span><span>www</span><span>.</span><span>w3</span><span>.</span><span>org</span><span>/</span><span>1999</span><span>/</span><span>xhtml</span></a>">
+<html>
 <head runat="server">
     <title>Página sin título</title>
+    <link href="css/W3.css" rel='stylesheet' type='text/css'>
+   <script language="vb" runat="server">
+
+       Protected Sub FancyBtn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+
+           FormsAuthentication.SignOut()
+
+           Response.Redirect("index.aspx")
+
+       End Sub
+
+    </script>
+
 </head>
 <body>
+
+
     <form id="form1" runat="server">
     <div>
-        <asp:Label ID="lblMensaje" runat="server" Text=""></asp:Label>
-        <CR:CrystalReportViewer ID="VisorCR" runat="server" AutoDataBind="true" />
+      
+
+        <asp:Button class="w3-button w3-block"  OnClick="FancyBtn_Click" ID="Button1" runat="server" Text="REGRESAR" />
+      
+
     </div>
+        <CR:CrystalReportViewer ID="CrystalReportViewer1" runat="server" AutoDataBind="True" EnableDatabaseLogonPrompt="False" EnableParameterPrompt="False" GroupTreeImagesFolderUrl="" Height="815px" ReportSourceID="CrystalReportSource1" ToolbarImagesFolderUrl="" ToolPanelWidth="200px" Width="37px" ReuseParameterValuesOnRefresh="True" />
+        <CR:CrystalReportSource ID="CrystalReportSource1" runat="server">
+            <Report FileName="CRPredio.rpt">
+            </Report>
+        </CR:CrystalReportSource>
     </form>
 </body>
 </html>

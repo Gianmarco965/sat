@@ -57,12 +57,12 @@ http://www.templatemo.com/tm-395-urbanic
                             <img src="images/logo1.png" alt="Urbanic Template" title="Urbanic Template" /></a>
                             <a href="#" class="w3-bar-item w3-button w3-text-light-grey w3-padding-16">MOSTRAR PREDIOS</a>
                             
-                            <div class="w3-dropdown-hover">
+                             <div class="w3-dropdown-hover">
                                 <button class="w3-button w3-padding-16 w3-text-light-grey">REPORTES</button>
                                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                                    <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS</a>
-                                    <a href="#" class="w3-bar-item w3-button">REPORTE POR FECHAS</a>
-                                    <a href="#" class="w3-bar-item w3-button">REPORTE DE PREDIOS NO FISCALIZADOS</a>
+                                    <a href="ReportePredio.aspx" class="w3-bar-item w3-button">REPORTE DE PREDIOS</a>
+                                    <a href="ReportePredioxd.aspx" class="w3-bar-item w3-button">REPORTE POR FECHAS</a>
+                                    <a href="ReportePredioNAsignado.aspx" class="w3-bar-item w3-button">REPORTE DE PREDIOS NO FISCALIZADOS</a>
                                 </div>
                             </div>
                             <a href="#" class="w3-bar-item w3-button w3-right w3-text-light-grey w3-padding-16">CERRAR SESION</a>

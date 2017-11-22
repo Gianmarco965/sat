@@ -65,6 +65,7 @@
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -211,6 +212,8 @@
     <Content Include="PropietarioVehiculo.aspx" />
     <Content Include="RegistroyPlanificacion.aspx" />
     <Content Include="ReportePredio.aspx" />
+    <Content Include="ReportePredioNAsignado.aspx" />
+    <Content Include="ReportePredioxd.aspx" />
     <Content Include="Representante.aspx" />
     <Content Include="RepresentanteVehiculo.aspx" />
     <Content Include="Styles\Site.css" />
@@ -274,10 +277,22 @@
       <DependentUpon>autovaluo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="CRFecha.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRFecha.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="CRPredio.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>CRPredio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRPredioNFiscalizado.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRPredioNFiscalizado.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="EditarPredio.aspx.designer.vb">
@@ -386,6 +401,20 @@
       <DependentUpon>ReportePredio.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="ReportePredioNAsignado.aspx.designer.vb">
+      <DependentUpon>ReportePredioNAsignado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportePredioNAsignado.aspx.vb">
+      <DependentUpon>ReportePredioNAsignado.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ReportePredioxd.aspx.designer.vb">
+      <DependentUpon>ReportePredioxd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReportePredioxd.aspx.vb">
+      <DependentUpon>ReportePredioxd.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Representante.aspx.designer.vb">
       <DependentUpon>Representante.aspx</DependentUpon>
     </Compile>
@@ -430,9 +459,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CRFecha.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRFecha.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="CRPredio.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CRPredio.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRPredioNFiscalizado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRPredioNFiscalizado.vb</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -461,6 +498,7 @@
   <ItemGroup>
     <Folder Include="App_Code\App_LocalResources\" />
     <Folder Include="App_Data\App_LocalResources\" />
+    <Folder Include="aspnet_client\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

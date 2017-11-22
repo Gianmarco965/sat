@@ -28,7 +28,7 @@ Public Class FiscalizarPredio
             End With
 
         Catch ex As Exception
-            lblmensaje.Text = "Error" & ex.Message
+
         Finally
             Response.Redirect("Fiscalizador.aspx")
             xcon.Close()
